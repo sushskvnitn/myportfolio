@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 function Home() {
   const [Progress, setProgress] = useState(0);
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
+
   return (
     <>
     <section id="Home"  style={{paddingBottom:'3rem'}}>
@@ -40,8 +46,8 @@ function Home() {
           textAlign: "center",
         }}
       >
-        <div className="container py-5">
-          <div>
+        <div className="container py-5" >
+          <div data-aos='flip-right'>
             <h1 style={{}}>
             I'm
               <span
@@ -118,7 +124,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="card-body text-monospace">
+        <div className="card-body text-monospace" data-aos="zoom-in-up">
           
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put

@@ -1,9 +1,14 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
-
-function contact() {
+function Contact() {
+  
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
   return (
-    <> <div id="contact" className="container" >
+    <> <div id="contact" className="container" data-aos="zoom-out-up" >
 
 
       <div className="contact3 py-5">
@@ -64,4 +69,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;
