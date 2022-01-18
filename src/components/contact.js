@@ -8,7 +8,7 @@ function Contact() {
     Aos.init({duration:2000})
   },[])
   return (
-    <> <div id="contact" className="container" data-aos="zoom-out-up" >
+    <> <div id="contact" className="container" data-aos="zoom-in-up" >
 
 
       <div className="contact3 py-5">
