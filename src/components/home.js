@@ -43,8 +43,7 @@ function Home() {
         <div className="container py-5">
           <div>
             <h1 style={{}}>
-              {" "}
-              I'm_
+            I'm
               <span
                 style={{ color: "red", fontWeight: "bold", marginLeft: "10px" }}
               >
@@ -119,7 +118,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="card-body">
+        <div className="card-body text-monospace">
           
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
@@ -127,6 +126,8 @@ function Home() {
           
         </div>
       </div>
+
+
     </section>
     </>
   );

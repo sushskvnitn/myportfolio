@@ -21,7 +21,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 400);
+    }, 4000);
   }, []);
   const [progress, setProgress] = useState(0);
  
@@ -73,33 +73,7 @@ function App() {
               <div>
                <Navbar/><Home/><About /><Socialmedia />  <Projects /> <Contact /><Footer/>
                </div>
-              {/* <Switch>
-                <Route path="/about">
-                  
-
-                  <Footer>
-                </Route>
-                <Route path="/socialmedia">
-                  
-
-                  <Footer></Footer>
-                </Route>
-                <Route path="/contact">
-                 
-                  <Footer></Footer>
-                </Route>
-                <Route path="/projects">
-                
-                  <Footer></Footer>
-                </Route>
-                <Route path="/">
-                  <Home />
-                </Route>
-              </Switch> */}
-{/*            
-            <Fragment>
-                    <ScrollButton />
-            </Fragment> */}
+    
           </div>
         )}
       </div>

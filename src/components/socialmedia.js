@@ -71,7 +71,7 @@ function Socialmedia() {
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: " 23 rem" }} id='box' data-aos="fade-right"
+            style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3" >
               <div className="card-header bg-warning">
@@ -109,7 +109,7 @@ function Socialmedia() {
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: " 23 rem" }} id='box' data-aos="fade-left"
+            style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3" >
               <div className="card-header bg-warning">
