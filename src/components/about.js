@@ -1,14 +1,20 @@
 import React from "react";
 
+
+
 function about() {
+
+
+  
   return (<>
   <div id="about">
 
-    <div  className="container ">
+    <div  className="container " >
       <br /><br /><br />
       <h2 className="text-center ">ABOUT</h2>
-        <p >
-          <strong><h5 > Experience</h5></strong>
+      <div>
+      <strong><kbd> Experience</kbd></strong>
+          <br />
           <b>VNIT Nagpur</b>
           Technical Secretary <br />
           Company NameVNIT Nagpur
@@ -19,7 +25,11 @@ function about() {
           <br />
           Location :Maharashtra, India
           <br />
-          <h5  >Education</h5>
+
+
+      </div>
+      <div>
+      <kbd  >Education</kbd>
           <br />
           <h5>Visvesvaraya National Institute of Technology</h5>
 
@@ -30,7 +40,9 @@ function about() {
           Dates attended :2020  expected graduation :2024
           <br />
           <br />
-         <h5  >Skills & endorsements</h5> 
+      </div>
+      <div>
+      <kbd  >Skills & endorsements</kbd> 
           <br />
           C++
           <br />
@@ -38,11 +50,8 @@ function about() {
           <br />
           HTML
           <br />
-          <br /><h5  >Industry Knowledge</h5>
-          <br />
-          Web Development
-          <br />
-          <br /><h5  >Tools & Technologies</h5>
+
+          <br /><kbd  >Tools & Technologies</kbd>
           <br />
           Bootstrap
           <br />
@@ -54,7 +63,9 @@ function about() {
           <br />
           JavaScript
           <br />
-        </p>
+
+      </div>
+
      
       </div>
     </div>

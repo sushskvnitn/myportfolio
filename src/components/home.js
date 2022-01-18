@@ -120,11 +120,11 @@ function Home() {
           </div>
         </div>
         <div className="card-body">
-          <p className="card-text ">
+          
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
             forward in everything I do
-          </p>
+          
         </div>
       </div>
     </section>

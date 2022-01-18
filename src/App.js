@@ -21,7 +21,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 400);
   }, []);
   const [progress, setProgress] = useState(0);
  
@@ -70,9 +70,9 @@ function App() {
               onLoaderFinished={() => setProgress(0)}
             />
             
-              
-
+              <div>
                <Navbar/><Home/><About /><Socialmedia />  <Projects /> <Contact /><Footer/>
+               </div>
               {/* <Switch>
                 <Route path="/about">
                   

@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
+
+
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 function Projects() {
   const [Progress, setProgress] = useState(0);
-
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
   return (
     <><div id="projects">
-      <br /><br /><br /><h2 className="text-center ">Projects</h2><br /><br /><br />
+      <br /><br /><br /><h2 className="text-center ">
+       <kbd>Projects</kbd> </h2><br /><br /><br />
       <LoadingBar
         color="#FFFF00"
         progress={Progress}
@@ -14,9 +21,7 @@ function Projects() {
       />
       <div>
         <div className="container">
-          <div className="container card-body"
-          whileTap={{scale:0.9}}
-
+          <div className="container card-body"  data-aos="fade-up"
           >
             <img
               src="https://source.unsplash.com/400x400/?macbook"
@@ -35,7 +40,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body">
+          <div className="container card-body"  data-aos="fade-right">
             <img
               src="https://source.unsplash.com/400x400/?notes"
               height="400"
@@ -54,7 +59,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="container card-body">
+          <div className="container card-body"  data-aos="fade-left">
             <img
               src="https://source.unsplash.com/400x400/?laptop"
               height="400"
@@ -72,7 +77,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body">
+          <div className="container card-body"  data-aos="fade-right">
             <img
               src="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
               height="400"
@@ -93,7 +98,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body">
+          <div className="container card-body"  data-aos="fade-left">
             <img
               src="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
               height="400"

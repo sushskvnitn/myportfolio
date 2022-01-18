@@ -5,7 +5,7 @@ import { TiSocialInstagram } from "react-icons/ti";
 import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
-import {animateScroll as scroll} from 'react-scroll'
+
 
 
 export default function Navbar() {
@@ -18,9 +18,7 @@ export default function Navbar() {
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
-      <nav  onClick={()=>{
-        scroll.scrollToTop()
-      }}
+      <nav  
         className="navbar sticky-top navbar-expand-lg navbar-dark " 
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }}
       >
