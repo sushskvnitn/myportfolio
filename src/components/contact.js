@@ -4,10 +4,7 @@ import React from "react";
 function contact() {
   return (
     <> <div id="contact" className="container" >
-<div class="alert alert-dark alert-dismissible fade show" role="alert">
-  <strong>fill the form carefully</strong> 
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
+
 
       <div className="contact3 py-5">
   <div className="row no-gutters"><h1> <kbd className=" text-center">Contact us </kbd></h1>

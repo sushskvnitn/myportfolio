@@ -57,15 +57,7 @@ export default function Navbar() {
                 <FaFileAlt /> About
               </Link>
             </li>
-            <li className="nav-item ">
-              <Link
-                className="nav-link"
-                to="social" smooth={true} duration={1500}
-                onClick={() => setProgress(100)}
-              >
-                <TiSocialInstagram /> social media
-              </Link>
-            </li>
+
             <li className="nav-item ">
               <Link
                 className="nav-link"
@@ -73,6 +65,15 @@ export default function Navbar() {
                 onClick={() => setProgress(100)}
               >
                 <IoAlbumsSharp /> projects
+              </Link>
+            </li>   
+                     <li className="nav-item ">
+              <Link
+                className="nav-link"
+                to="social" smooth={true} duration={1500}
+                onClick={() => setProgress(100)}
+              >
+                <TiSocialInstagram /> social media
               </Link>
             </li>
             <li className="nav-item ">
