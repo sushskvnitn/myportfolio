@@ -6,6 +6,8 @@ function Socialmedia() {
   return (
 
 <>
+<div id="social">
+<br /><br /><br /><h2 className="text-center ">social media</h2><br /><br /><br />
 <LoadingBar
         color='#FFFF00'
         progress={Progress}
@@ -91,7 +93,7 @@ function Socialmedia() {
         </div>
       </div>
       </div>
-
+   </div>
    </>
   );
 }

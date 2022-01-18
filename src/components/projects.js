@@ -5,7 +5,8 @@ function Projects() {
   const [Progress, setProgress] = useState(0);
 
   return (
-    <>
+    <><div id="projects">
+      <br /><br /><br /><h2 className="text-center ">Projects</h2><br /><br /><br />
       <LoadingBar
         color="#FFFF00"
         progress={Progress}
@@ -113,6 +114,7 @@ function Projects() {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

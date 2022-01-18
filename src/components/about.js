@@ -2,15 +2,11 @@ import React from "react";
 
 function about() {
   return (<>
-        <img className="img-fluid" src="https://source.unsplash.com/1600x900/?black,planets" type="image" alt="..." style={{
-                    position:"absolute",
-                    width:"100%",
-                    height:"130%",
-                    objectFit:"cover",
-                    zIndex:"-1",
-                    opacity:"70%"
-      }} />
+  <div id="about">
+
     <div  className="container ">
+      <br /><br /><br />
+      <h2 className="text-center ">ABOUT</h2>
         <p >
           <strong><h5 > Experience</h5></strong>
           <b>VNIT Nagpur</b>
@@ -60,6 +56,7 @@ function about() {
           <br />
         </p>
      
+      </div>
     </div>
     </>
   );

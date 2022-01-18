@@ -3,7 +3,7 @@ import { FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 function contact() {
   return (
-    <> <div style={{
+    <> <div id="contact" style={{
       display: 'grid',
       placeItems: 'center'}}>
       <div
@@ -20,6 +20,7 @@ function contact() {
           textJustify:"auto"
         }}
       >
+        <br /><br /><br /><h2 className="text-center ">contact</h2><br />
         <img
           style={{
             padding: "10px",
@@ -30,7 +31,7 @@ function contact() {
           alt="images"
         />
         <div classname="card-body">
-          <h5 classname="card-title">contact us </h5>
+         
           <p classname="card-text">
             <p>
               

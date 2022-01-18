@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { FaFileAlt } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
+import {animateScroll as scroll} from 'react-scroll'
+
 
 export default function Navbar() {
   const [Progress, setProgress] = useState(0);
@@ -16,7 +18,9 @@ export default function Navbar() {
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
-      <nav
+      <nav  onClick={()=>{
+        scroll.scrollToTop()
+      }}
         className="navbar sticky-top navbar-expand-lg navbar-dark " 
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }}
       >
@@ -40,7 +44,7 @@ export default function Navbar() {
             <li className="nav-item justify-content-end ">
               <Link
                 className="nav-link"
-                to="/"
+                to="Home" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
                 <IoIosHome /> Home <span className="sr-only">(current)</span>
@@ -49,7 +53,7 @@ export default function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="/about"
+                to="about" smooth={true} duration={1000}
                 onClick={() => setProgress(100)}
               >
                 <FaFileAlt /> About
@@ -58,7 +62,7 @@ export default function Navbar() {
             <li className="nav-item ">
               <Link
                 className="nav-link"
-                to="/socialmedia"
+                to="social" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
                 <TiSocialInstagram /> social media
@@ -67,21 +71,22 @@ export default function Navbar() {
             <li className="nav-item ">
               <Link
                 className="nav-link"
-                to="/contact"
-                onClick={() => setProgress(100)}
-              >
-                <IoIosContacts /> contact
-              </Link>
-            </li>
-            <li className="nav-item ">
-              <Link
-                className="nav-link"
-                to="/projects"
+                to="projects" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
                 <IoAlbumsSharp /> projects
               </Link>
             </li>
+            <li className="nav-item ">
+              <Link
+                className="nav-link"
+                to="contact" smooth={true} duration={1500}
+                onClick={() => setProgress(100)}
+              >
+                <IoIosContacts /> contact
+              </Link>
+            </li>
+
           </ul>
         </div>
 

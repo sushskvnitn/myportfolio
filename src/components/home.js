@@ -9,6 +9,7 @@ function Home() {
   const [Progress, setProgress] = useState(0);
   return (
     <>
+    <section id="Home"  style={{paddingBottom:'3rem'}}>
       <LoadingBar
         color="#FFFF00"
         progress={Progress}
@@ -126,6 +127,7 @@ function Home() {
           </p>
         </div>
       </div>
+    </section>
     </>
   );
 }
