@@ -19,14 +19,16 @@ function Projects() {
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
+      
       <div>
-        <div className="container">
-          <div className="container card-body"  data-aos="flip-right"
+        <div className="container d-flex flex-wrap">
+          
+          <div className="container card-body"  style={{width:"20rem"}} data-aos="flip-right"
           >
             <img
-              src="https://source.unsplash.com/400x400/?macbook"
-              height="400"
-              width="400"
+              src="https://source.unsplash.com/300x300/?macbook"
+              height="300"
+              width="300"
               className="img-fluid"
               alt="..."
             />
@@ -40,11 +42,11 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body"  data-aos="flip-left">
+          <div className="container card-body"  style={{width:"20rem"}} data-aos="flip-left">
             <img
-              src="https://source.unsplash.com/400x400/?notes"
-              height="400"
-              width="400"
+              src="https://source.unsplash.com/300x300/?notes"
+              height="300"
+              width="300"
               className="img-fluid"
               alt="..."
             />
@@ -59,11 +61,11 @@ function Projects() {
             </a>
           </div>
 
-          <div className="container card-body"  data-aos="flip-right">
+          <div className="container card-body" style={{width:"20rem"}}  data-aos="flip-right">
             <img
-              src="https://source.unsplash.com/400x400/?laptop"
-              height="400"
-              width="400"
+              src="https://source.unsplash.com/300x300/?laptop"
+              height="300"
+              width="300"
               className="img-fluid"
               alt="..."
             />
@@ -77,11 +79,11 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body"  data-aos="flip-left">
+          <div className="container card-body" style={{width:"20rem"}} data-aos="flip-left">
             <img
-              src="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
-              height="400"
-              width="400"
+              src="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
+              height="300"
+              width="300"
               className="img-fluid"
               alt="..."
             />
@@ -98,11 +100,11 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body"  data-aos="flip-right">
+          <div className="container card-body" style={{width:"20rem"}}  data-aos="flip-right">
             <img
-              src="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400"
-              height="400"
-              width="400"
+              src="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
+              height="300"
+              width="300"
               className="img-fluid"
               alt="..."
             />
