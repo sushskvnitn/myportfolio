@@ -71,7 +71,7 @@ function App() {
             />
             
               <div>
-               <Navbar/><Home/><About /><Socialmedia />  <Projects /> <Contact /><Footer/>
+               <Navbar/><Home/><About /><Projects /><Socialmedia />   <Contact /><Footer/>
                </div>
     
           </div>

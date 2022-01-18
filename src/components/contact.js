@@ -4,7 +4,10 @@ import React from "react";
 function contact() {
   return (
     <> <div id="contact" className="container" >
-
+<div class="alert alert-dark alert-dismissible fade show" role="alert">
+  <strong>fill the form carefully</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 
       <div className="contact3 py-5">
   <div className="row no-gutters"><h1> <kbd className=" text-center">Contact us </kbd></h1>
@@ -48,7 +51,6 @@ function contact() {
 
                   {/* auto response to user */}
                  <input type="hidden" name="_autoresponse" value="your response has been received sucessfully .thank you,i will get back to you soon "/>
-
                   <button type="submit" value="Send Email" className="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
                 </div>
               </div>

@@ -54,7 +54,7 @@ function Home() {
                   typeSpeed={70}
                   deleteSpeed={55}
                   delaySpeed={1000}
-                  words={["student", "developer", "sushant"]}
+                  words={["developer","student", "sushant"]}
                 />
               </span>
             </h1>
