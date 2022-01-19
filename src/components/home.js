@@ -75,7 +75,7 @@ function Home() {
                 style={{
                   color: "red",
                   marginLeft: "10px",
-                  width: "20rem",
+                  width: "22rem",
                   height: "18rem",
                 }}
               >
