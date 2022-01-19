@@ -81,7 +81,7 @@ function Home() {
               >
                 <div className="bg-white rounded shadow-sm py-5 px-4">
                   <img
-                    src="https://i.postimg.cc/bwjRz6CN/myimg.png"
+                    src="https://postimg.cc/v1wmL9sD"
                     alt=""
                     width="130"
                     className="img-fluid rounded-circle img-thumbnail shadow-sm"
