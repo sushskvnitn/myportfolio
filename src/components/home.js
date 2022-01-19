@@ -81,7 +81,7 @@ function Home() {
               >
                 <div className="bg-white rounded shadow-sm py-5 px-4">
                   <img
-                    src="https://i.postimg.cc/3wdDhCfj/IMG-20210731-123230.jpg"
+                    src="https://i.postimg.cc/3wdDhCfj/IMG-20210731-123230.jpg" data-aos="zoom-out"
                     alt=""
                     width="130"
                     className="img-fluid rounded-circle img-thumbnail shadow-sm"
