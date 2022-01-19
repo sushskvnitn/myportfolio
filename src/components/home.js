@@ -81,7 +81,7 @@ function Home() {
               >
                 <div className="bg-white rounded shadow-sm py-5 px-4">
                   <img
-                    src="https://i.postimg.cc/3wdDhCfj/IMG-20210731-123230.jpg" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
+                    src="https://i.postimg.cc/4dXvghtX/IMG-20211106-214519-447.jpg" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"
                     alt=""
                     width="130"
                     className="img-fluid rounded-circle img-thumbnail shadow-sm"
