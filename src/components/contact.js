@@ -50,7 +50,7 @@ function Contact() {
 
                   {/* template for email received  */}
                 <input type="hidden" name="_template" value="table"/>
-
+                <input type="hidden" name="_next" value="https://sushantportfolio.netlify.app/"/>
                   {/* auto response to user */}
                  <input type="hidden" name="_autoresponse" value="your response has been received sucessfully .thank you,i will get back to you soon "/>
                   <button type="submit" value="Send Email" className="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
