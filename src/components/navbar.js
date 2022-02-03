@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <LoadingBar
-        color="#FFFF00"
+        color="#FF0000"
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />

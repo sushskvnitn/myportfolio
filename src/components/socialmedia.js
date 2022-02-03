@@ -24,7 +24,7 @@ function Socialmedia() {
         <br />
         <br />
         <LoadingBar
-          color="#FFFF00"
+          color="#ff0000"
           progress={Progress}
           onLoaderFinished={() => setProgress(0)}
         />

@@ -15,7 +15,7 @@ function Projects() {
       <br /><br /><br /><h2 className="text-center ">
        <kbd>Projects</kbd> </h2><br /><br /><br />
       <LoadingBar
-        color="#FFFF00"
+        color="#ff0000"
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
