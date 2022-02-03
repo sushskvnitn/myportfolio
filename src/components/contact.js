@@ -8,7 +8,7 @@ function Contact() {
     Aos.init({duration:2000})
   },[])
   return (
-    <> <div id="contact" className="container" data-aos="zoom-in-up" >
+    <> <div id="contact" className="container"  data-aos="fade-right" >
 
 
       <div className="contact3 py-5">
@@ -25,19 +25,19 @@ function Contact() {
             
             <form className="mt-4"  method="POST" action="https://formsubmit.co/4kstatus.ssk@gmail.com"  >
               <div className="row">
-                <div className="col-lg-12">
+                <div className="col-lg-12" data-aos="flip-up">
                   <div className="form-group mt-2">
                     <input className="form-control" required type="name" name="name" placeholder="name"/>
                     
                   </div>
                 </div>
-                <div className="col-lg-12">
+                <div className="col-lg-12" data-aos="flip-up">
                   <div className="form-group mt-2">
                   <input className="form-control" type="email" name="email" placeholder="Email Address"/>
                   </div>
                 </div>
 
-                <div className="col-lg-12">
+                <div className="col-lg-12" data-aos="flip-up">
                   <div className="form-group mt-2">
                     <input className="form-control" rows="3"  type="text" name="text" placeholder="message"></input>
 

@@ -41,7 +41,7 @@ export default function Navbar() {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item justify-content-end ">
               <Link
-                className="nav-link"
+                className="nav-link "
                 to="Home" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >

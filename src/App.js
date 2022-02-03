@@ -13,8 +13,8 @@ import RingLoader from "react-spinners/RingLoader";
 import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 
-// import { Fragment } from "react";
-// import ScrollButton from "./components/ScrollButton";
+
+
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -24,7 +24,7 @@ function App() {
     }, 4000);
   }, []);
   const [progress, setProgress] = useState(0);
- 
+
   return (
     <>
       <div className="app">
@@ -77,6 +77,7 @@ function App() {
           </div>
         )}
       </div>
+    
     </>
   );
 }
