@@ -14,6 +14,7 @@ function Projects() {
     <><div id="projects">
       <br /><br /><br /><h2 className="text-center ">
        <kbd>Projects</kbd> </h2><br /><br /><br />
+       <h3 data-aos="fade-right" className="text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React <br />with lot of animations and features  with their hosting on different platforms  </h3>
       <LoadingBar
         color="#ff0000"
         progress={Progress}
@@ -23,7 +24,7 @@ function Projects() {
       <div>
         <div className="container d-flex flex-wrap">
           
-          <div className="container card-body"  style={{width:"20rem"}} data-aos="fade-right"
+          <div className="container card-body"  style={{width:"20rem"}} data-aos-delay="1000" data-aos="fade-right"
           >
             <img
               src="https://source.unsplash.com/300x300/?macbook"
@@ -42,7 +43,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body"  style={{width:"20rem"}} data-aos="fade-right">
+          <div className="container card-body"  style={{width:"20rem"}} data-aos="fade-right" data-aos-delay="1000">
             <img
               src="https://source.unsplash.com/300x300/?notes"
               height="300"
@@ -61,7 +62,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="container card-body" style={{width:"20rem"}}  data-aos="fade-right">
+          <div className="container card-body" style={{width:"20rem"}}  data-aos="fade-right" data-aos-delay="1000">
             <img
               src="https://source.unsplash.com/300x300/?laptop"
               height="300"
@@ -79,7 +80,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body" style={{width:"20rem"}} data-aos="fade-right">
+          <div className="container card-body" style={{width:"20rem"}}  data-aos-delay="1000" data-aos="fade-right">
             <img
               src="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
               height="300"
@@ -100,7 +101,7 @@ function Projects() {
               see my project
             </a>
           </div>
-          <div className="container card-body" style={{width:"20rem"}}  data-aos="fade-right">
+          <div className="container card-body" style={{width:"20rem"}} data-aos-delay="1000" data-aos="fade-right">
             <img
               src="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
               height="300"
