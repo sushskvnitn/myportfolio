@@ -4,13 +4,13 @@ import Particles from "react-tsparticles";
 
 function about() {
   const particlesInit = (main) => {
-    console.log(main);
+    console.log("main");
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    console.log("welcome");
     
   };
 
@@ -55,22 +55,24 @@ function about() {
           <br />
           C++
           <br />
-          Cascading Style Sheets (CSS)
+          Cascading Style Sheets (CSS)  HTML
           <br />
-          HTML
+           React.js
           <br />
 
           <br /><kbd  >Tools & Technologies</kbd>
           <br />
           Bootstrap
           <br />
-          React.js
+          
           <br />
           Adobe Photoshop
           <br />
           Python (Programming Language)
           <br />
           JavaScript
+          <br />
+          git and GITHUB
           <br />
 
       </div>
@@ -82,6 +84,7 @@ function about() {
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
+      style={{zIndex:-1}}
       options={{
    
         fpsLimit: 120,
@@ -99,7 +102,7 @@ function about() {
           },
           modes: {
             bubble: {
-              distance: 300,
+              distance: 400,
               duration: 2,
               opacity: 0.8,
               size: 40,

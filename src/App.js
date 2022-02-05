@@ -15,6 +15,7 @@ import "react-simple-typewriter/dist/index";
 
 
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -71,7 +72,11 @@ function App() {
             />
             
               <div>
-               <Navbar/><Home/><About /><Projects /><Socialmedia />   <Contact /><Footer/>
+                <div className="sticky-top" >
+                 <Navbar   /> 
+                </div>
+               
+               <Home/><About /><Projects /><Socialmedia />   <Contact /><Footer/>
                </div>
     
           </div>

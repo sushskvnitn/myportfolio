@@ -35,14 +35,14 @@ function Socialmedia() {
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3" >
-              <div className="card-header bg-warning"  >
+              <div className="card-header  btn-danger  text-white"  >
                 <b>
                   <FaGithub /> GITHUB PROFILE
                 </b>
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushskvnitn</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/81333 "  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <IframeResizer src="https://embed.lottiefiles.com/animation/81333 "  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 <p className="card-text">
                   some of my projects on web development i have added some of
                   them to projects of
@@ -50,7 +50,7 @@ function Socialmedia() {
                 </p>
                 <a
                   href="https://github.com/sushskvnitn"
-                  className="btn btn-warning"
+                  className="btn btn-danger"
                   role="button"
                   data-bs-toggle="button"
                   onClick={() => setProgress(100)}
@@ -68,21 +68,21 @@ function Socialmedia() {
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3" >
-              <div className="card-header bg-warning">
+              <div className="card-header btn-danger  text-white">
                 <b>
                   <FaLinkedin /> linkedin PROFILE
                 </b>
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/76044"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <IframeResizer src="https://embed.lottiefiles.com/animation/76044"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 <p className="card-text">
                   Here my linked in profile see more details here whtever i have
                   written there are skills
                 </p>
                 <a
                   href="https://www.linkedin.com/in/sushant-kogurwar-2002/"
-                  className="btn btn-warning"
+                  className="btn btn-danger"
                   role="button"
                   data-bs-toggle="button"
                   onClick={() => setProgress(100)}
@@ -100,14 +100,14 @@ function Socialmedia() {
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3" >
-              <div className="card-header bg-warning">
+              <div className="card-header btn-danger  text-white">
                 <b>
                   <FaHackerrank /> HACKERRANK PROFILE
                 </b>
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/95118" className="img-fluid"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <IframeResizer src="https://embed.lottiefiles.com/animation/95118" className="img-fluid"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 
                 <p className="card-text">
                   hello ,Im <FaStar />
@@ -118,7 +118,7 @@ function Socialmedia() {
                 </p>
                 <a
                   href="https://www.hackerrank.com/Sushantkogurwar"
-                  className="img-fluid btn btn-warning"
+                  className="img-fluid btn btn-danger"
                   role="button"
                   data-bs-toggle="button"
                   onClick={() => setProgress(100)}

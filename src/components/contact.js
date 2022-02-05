@@ -15,7 +15,7 @@ function Contact() {
   <div className="row no-gutters"><h1> <kbd className=" text-center">Contact us </kbd></h1>
     <div className="container">
       <div className="row">
-      <IframeResizer src="https://embed.lottiefiles.com/animation/81967"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+      <IframeResizer src="https://embed.lottiefiles.com/animation/81967"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 
         <div className="col-lg-6">
           <div className="contact-box ml-3">

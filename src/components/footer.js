@@ -1,21 +1,70 @@
 import React from 'react'
-import {GrResume} from 'react-icons/gr';
-import {FaCopyright} from 'react-icons/fa';
+
 
 function footer() {
-    return (
-        <div className='sticky-bottom' id='footer'>
-            
-            <footer id="footer" className="grey lighten-4 text-center text-lg-start" >
-  <div className="footer-copyright text-center p-3 grey lighten-1 text-black-50">
-    <FaCopyright/> 2021 Copyright  :
-    <a className="text" href="/">
-     <GrResume/>  myportfolio.com
-    </a>
+    return (<>
+ 
+
+<div className ="container ">
+
+  <footer className ="text-center text-white" style={{backgroundColor: "#f1f1f1",zIndex:1}}>
+ 
+  <div className ="container pt-4">
+   
+    <section className ="mb-4">
+    
+      <a  id="footicon"
+        className ="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/sushant.kogurwar"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i className ="fab fa-facebook-f"></i
+      ></a>
+
+
+
+
+     
+      <a  id="footicon"
+        className ="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/sushant_since_2002/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i className ="fab fa-instagram"></i
+      ></a>
+
+     
+      <a  id="footicon"
+        className ="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.linkedin.com/in/sushant-kogurwar-2002/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i className ="fab fa-linkedin"></i>
+      </a>
+      
+      <a  id="footicon"
+        className ="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://github.com/sushskvnitn"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i className ="fab fa-github"></i
+      ></a>
+    </section>
+
   </div>
 
+  <div className ="text-center text-dark p-3" style={{backgroundColor:" rgba(0, 0, 0, 0.2)"}}>
+    © 2022 Copyright:
+    <a   className ="text-dark" href="https://sushantportfolio.vercel.app/">sushantportfolio.vercel.app</a>
+  </div>
+  
 </footer>
-        </div>
+  
+</div>
+
+
+        
+</>
     )
 }
 

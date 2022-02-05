@@ -13,8 +13,8 @@ function Projects() {
   return (
     <><div id="projects">
       <br /><br /><br /><h2 className="text-center ">
-       <kbd>Projects</kbd> </h2><br /><br /><br />
-       <h3 data-aos="fade-right" className="text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React <br />with lot of animations and features  with their hosting on different platforms  </h3>
+       <kbd data-aos="zoom-in-up" >Projects</kbd> </h2><br /><br /><br />       
+       <h4 data-aos="fade-right" className="text-monospace text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React with lot<br /> of animations and features  with their hosting on different platforms  </h4>
       <LoadingBar
         color="#ff0000"
         progress={Progress}
