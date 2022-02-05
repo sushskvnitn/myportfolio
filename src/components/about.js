@@ -94,10 +94,7 @@ function about() {
               enable: true,
               mode: "push",
             },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
+          
             resize: true,
           },
           modes: {
@@ -110,10 +107,7 @@ function about() {
             push: {
               quantity: 4,
             },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
+         
           },
         },
         particles: {
