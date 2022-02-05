@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import { FaGithub, FaLinkedin, FaHackerrank, FaStar } from "react-icons/fa";
 import LoadingBar from "react-top-loading-bar";
-
+import IframeResizer from 'iframe-resizer-react'
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -42,13 +42,7 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushskvnitn</h5>
-                <img
-                  className="img-fluid"
-                  src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
-                  heigth="200px"
-                  width="200px"
-                  alt=""
-                />
+                <IframeResizer src="https://embed.lottiefiles.com/animation/81333 "  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 <p className="card-text">
                   some of my projects on web development i have added some of
                   them to projects of
@@ -81,13 +75,7 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                  alt=""
-                  height="200px"
-                  width="200px"
-                  className="img-fluid"
-                />
+                <IframeResizer src="https://embed.lottiefiles.com/animation/76044"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
                 <p className="card-text">
                   Here my linked in profile see more details here whtever i have
                   written there are skills
@@ -119,13 +107,8 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <img
-                  className="img-fluid"
-                  src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
-                  heigth="200px"
-                  width="200px"
-                  alt=""
-                />
+                <IframeResizer src="https://embed.lottiefiles.com/animation/95118" className="img-fluid"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                
                 <p className="card-text">
                   hello ,Im <FaStar />
                   <FaStar />

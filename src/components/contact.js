@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
-
+import IframeResizer from 'iframe-resizer-react'
 function Contact() {
   
   useEffect(()=>{
@@ -15,11 +15,8 @@ function Contact() {
   <div className="row no-gutters"><h1> <kbd className=" text-center">Contact us </kbd></h1>
     <div className="container">
       <div className="row">
-        <div className="col-lg-6">
-          <div className="card-shadow">
-            <img alt="" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" className="img-fluid"/>
-          </div>
-        </div>
+      <IframeResizer src="https://embed.lottiefiles.com/animation/81967"  frameborder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                
         <div className="col-lg-6">
           <div className="contact-box ml-3">
             
