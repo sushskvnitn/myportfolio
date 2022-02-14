@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import { FaGithub, FaLinkedin, FaHackerrank, FaStar } from "react-icons/fa";
 import LoadingBar from "react-top-loading-bar";
-import IframeResizer from 'iframe-resizer-react'
+
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -34,7 +34,7 @@ function Socialmedia() {
             className="container d-flex justify-content-center content-wrap"
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
-            <div className="card text-dark mb-3" >
+            <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header  btn-danger  text-white"  >
                 <b>
                   <FaGithub /> GITHUB PROFILE
@@ -42,7 +42,7 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushskvnitn</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/81333 "  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <iframe src="https://embed.lottiefiles.com/animation/81333 "  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </iframe>
                 <p className="card-text">
                   some of my projects on web development i have added some of
                   them to projects of
@@ -67,7 +67,7 @@ function Socialmedia() {
             className="container d-flex justify-content-center content-wrap"
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
-            <div className="card text-dark mb-3" >
+            <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">
                 <b>
                   <FaLinkedin /> linkedin PROFILE
@@ -75,7 +75,7 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/76044"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <iframe src="https://embed.lottiefiles.com/animation/76044"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </iframe>
                 <p className="card-text">
                   Here my linked in profile see more details here whtever i have
                   written there are skills
@@ -99,7 +99,7 @@ function Socialmedia() {
             className="container d-flex justify-content-center content-wrap"
             style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
           >
-            <div className="card text-dark mb-3" >
+            <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">
                 <b>
                   <FaHackerrank /> HACKERRANK PROFILE
@@ -107,7 +107,7 @@ function Socialmedia() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">sushant kogurwar</h5>
-                <IframeResizer src="https://embed.lottiefiles.com/animation/95118" className="img-fluid"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>
+                <iframe src="https://embed.lottiefiles.com/animation/95118" className="img-fluid"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </iframe>
                 
                 <p className="card-text">
                   hello ,Im <FaStar />

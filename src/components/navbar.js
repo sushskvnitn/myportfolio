@@ -24,7 +24,7 @@ export default function Navbar() {
       />
       <nav  
         className="navbar sticky-top navbar-expand-lg navbar-dark " 
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }} data-aos-delay="500" data-aos="flip-down"
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }} data-aos-delay="500" data-aos="fade-up"
       >
         <Link className="navbar-brand" to="/">
           MyPortFolio

@@ -31,19 +31,20 @@ function App() {
       <div className="app">
         {loading ? (
           <>
-            <div className="loader">
+            <div className="loader"> 
+             
               <br />
               <br />
-
+              
               <div>
-                <h1 style={{}}>
+                <h1 >
                  
                   Hello_
                   <span
                     style={{
                       color: "red",
                       fontWeight: "bold",
-                      marginLeft: "10px",
+                      
                     }}
                   >
                     <Typewriter
