@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaFileAlt } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
@@ -6,15 +6,12 @@ import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
 
-import Aos from "aos";
-import "aos/dist/aos.css"
+
 
 
 export default function Navbar() {
   const [Progress, setProgress] = useState(0);
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+
   return (
     <>
       <LoadingBar
@@ -22,9 +19,9 @@ export default function Navbar() {
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
-      <nav  
-        className="navbar sticky-top navbar-expand-lg navbar-dark " 
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }} data-aos-delay="500" data-aos="fade-up"
+      <nav
+        className="navbar sticky-top navbar-expand-lg navbar-dark "
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
           MyPortFolio
@@ -70,7 +67,7 @@ export default function Navbar() {
               >
                 <IoAlbumsSharp /> projects
               </Link>
-            </li>   
+            </li>
                      <li className="nav-item ">
               <Link
                 className="nav-link"
