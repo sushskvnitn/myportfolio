@@ -21,7 +21,7 @@ function Home() {
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
-       <img
+       {/*<img
         className="img-fluid"
         src="https://images.unsplash.com/photo-1569427994399-0fa9b9adf9e9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8YmxhY2ssc3VuLG1vb258fHx8fHwxNjM5Mjk0MTUy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600"
         type="image"
@@ -34,7 +34,7 @@ function Home() {
           zIndex: "-1",
           opacity: "50%",
         }}
-      />
+      />*/}
       <div
         className="card d-flex justify-content-center"
         style={{
