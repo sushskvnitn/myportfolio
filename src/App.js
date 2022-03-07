@@ -5,16 +5,13 @@ import Socialmedia from "./components/socialmedia";
 import Contact from "./components/contact";
 import About from "./components/about";
 import Home from "./components/home";
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import LoadingBar from "react-top-loading-bar";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
 import RingLoader from "react-spinners/RingLoader";
-import { Typewriter } from "react-simple-typewriter";
+import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
-
-
-
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -26,66 +23,46 @@ function App() {
   }, []);
   const [progress, setProgress] = useState(0);
 
-  return (
-    <>
-      <div className="app">
-        {loading ? (
-          <>
-            <div className="loader"> 
-             
-              <br />
-              <br />
-              
-              <div>
-                <h1 >
-                 
-                  Hello_
-                  <span
-                    style={{
-                      color: "red",
-                      fontWeight: "bold",
-                      
-                    }}
-                  >
-                    <Typewriter
-                      loop
-                      cursor
-                      cursorStyle="|"
-                      typeSpeed={80}
-                      deleteSpeed={100}
-                      delaySpeed={100}
-                      words={["welcome", "नमस्ते", "స్వాగతం"]}
-                    />
-                  </span>
-                </h1>
-              </div>
+  return (<> < div className = "app" > {
+    loading
+      ? (<> < div className = "loader" > <br/>
+      <br/>
 
-              <RingLoader color={"#DAA520"} loading={loading} size={100} />
-            </div>
-          </>
-        ) : (
-          <div className="display img-fluid">
+      <div>
+        <h1 >
 
-            <LoadingBar
-              color="#DAA520"
-              progress={progress}
-              onLoaderFinished={() => setProgress(0)}
-            />
-            
-              <div>
-                <div className="sticky-top" >
-                 <Navbar   /> 
-                </div>
-               
-               <Home/><About /><Projects /><Socialmedia />   <Contact /><Footer/>
-               </div>
-    
-          </div>
-        )}
+          Hello_
+          <span style={{
+              color: "red",
+              fontWeight: "bold"
+            }}>
+            <Typewriter loop="loop" cursor="cursor" cursorStyle="|" typeSpeed={80} deleteSpeed={100} delaySpeed={100} words={["welcome", "नमस्ते", "స్వాగతం"]}/>
+          </span>
+        </h1>
       </div>
-    
-    </>
-  );
+
+      <RingLoader color={"#DAA520"} loading={loading} size={100}/>
+    </div>
+  </>)
+      : (<div className="display img-fluid">
+        <LoadingBar color="#DAA520" progress={progress} onLoaderFinished={() => setProgress(0)}/>
+
+        <div>
+          <div className="sticky-top">
+            <Navbar/>
+          </div>
+
+          <Home/>
+
+          <About/>
+          <Projects/><Socialmedia/>
+          <Contact/>
+          <Footer/>
+
+        </div></div>)
+  } < /div>
+
+    </ >);
 }
 
 export default App;

@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
-
+import {Parallax} from 'react-scroll-parallax';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -11,19 +12,23 @@ function Projects() {
     Aos.init({duration:2000})
   },[])
   return (
-    <><div id="projects">
+    <><ParallaxProvider>
+    <div id="projects">
       <br /><br /><br /><h2 className="text-center ">
-       <kbd data-aos="zoom-in-up" >Projects</kbd> </h2><br /><br /><br />       
-       <h4 data-aos="fade-right" className="text-monospace text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React with lot<br /> of animations and features  with their hosting on different platforms  </h4>
+       <kbd data-aos="zoom-in-up" >Projects</kbd> </h2>
+       <Parallax  speed={-4} >
+       <h4 data-aos="fade-right" className=" text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React with lot<br /> of animations and features  with their hosting on different platforms  </h4>
+     </Parallax>
+
       <LoadingBar
         color="#ff0000"
         progress={Progress}
         onLoaderFinished={() => setProgress(0)}
       />
-      
+
       <div>
         <div className="container d-flex flex-wrap">
-          
+
           <div className="container card-body"  style={{width:"20rem"}} data-aos-delay="1000" data-aos="fade-right"
           >
             <img
@@ -124,6 +129,7 @@ function Projects() {
         </div>
       </div>
       </div>
+      </ParallaxProvider>
     </>
   );
 }
