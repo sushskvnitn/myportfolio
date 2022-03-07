@@ -130,7 +130,7 @@ function Home() {
 
             </div>
           </Parallax>
-          <Parallax scale={[0.75, 1.25]}
+          <Parallax scale={[0.75, 1.1]}
                   easing="easeInQuad"
             >
           <div
