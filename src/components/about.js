@@ -20,7 +20,7 @@ export default function CustomizedTimeline() {
   return (
 <section id="about"  style={{paddingBottom:'3rem'}}>
     <>
-     < Timeline position = "alternate" > <TimelineItem data-aos-delay="500" data-aos="fade-down">
+     < Timeline position = "alternate" > <TimelineItem  data-aos="fade-down">
     <TimelineOppositeContent sx={{
         m: 'auto 0'
       }} align="right" variant="body2" color="text.secondary">
@@ -43,7 +43,7 @@ export default function CustomizedTimeline() {
       <Typography>Because you need strength</Typography>
     </TimelineContent>
   </TimelineItem>
-  <TimelineItem data-aos-delay="500" data-aos="fade-down">
+  <TimelineItem data-aos-delay="100" data-aos="fade-down">
     <TimelineOppositeContent sx={{
         m: 'auto 0'
       }} variant="body2" color="text.secondary">
@@ -66,7 +66,7 @@ export default function CustomizedTimeline() {
       <Typography>Because it&apos;s awesome!</Typography>
     </TimelineContent>
   </TimelineItem>
-  <TimelineItem data-aos-delay="500" data-aos="fade-down">
+  <TimelineItem data-aos-delay="200" data-aos="fade-down">
     <TimelineSeparator>
       <TimelineConnector/>
       <TimelineDot color="primary" variant="outlined">
@@ -86,7 +86,7 @@ export default function CustomizedTimeline() {
       <Typography>Because you need rest</Typography>
     </TimelineContent>
   </TimelineItem>
-  <TimelineItem data-aos-delay="500" data-aos="fade-down">
+  <TimelineItem data-aos-delay="100" data-aos="fade-down">
     <TimelineSeparator>
       <TimelineConnector sx={{
           bgcolor: 'secondary.main'

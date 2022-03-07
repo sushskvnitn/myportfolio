@@ -1,6 +1,6 @@
 body{
     background-color: rgb(0, 0, 0);
-    color:white;  
+    color:white;
     font-size: 18px;
     z-index: 1;
   }
@@ -111,10 +111,10 @@ body{
 
 
 #footicon:hover{
-  
+
   color: rgb(124, 6, 6);
   border-radius: 50%;
- 
+
   margin-top: 3px;
   box-shadow: 2px 5px  5px 2px  #c3c8d3;
 }
@@ -129,7 +129,5 @@ body{
   45px 2.3px 11.8px -38px rgba(0, 0, 0, 0.21),
   65.3px 3.3px 17.2px -38px rgba(0, 0, 0, 0.197),
   100.7px 5.1px 26.4px -38px rgba(0, 0, 0, 0.176),
-  179px 9px 47px -38px rgba(0, 0, 0, 0.14)}
-
-
-
+  179px 9px 47px -38px rgba(0, 0, 0, 0.14)
+}
