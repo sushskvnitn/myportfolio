@@ -130,8 +130,8 @@ function Home() {
 
             </div>
           </Parallax>
-          <Parallax scale={[0.75, 1.1]}
-                  easing="easeInQuad"
+          <Parallax  speed={10}
+                 
             >
           <div
           className="d-none d-sm-block d-md-none  row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
