@@ -70,8 +70,7 @@ function Home() {
             </h1>
           </div>
           <div className="container">
-            <Parallax  speed={-20} className="d-none d-lg-block"
-  rotate={[158,-180]} scale={[ 1.5,0.2]} >
+            <Parallax  speed={-20} className="d-none d-lg-block" >
 
 
             <div
