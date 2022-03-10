@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <>
-    <ParallaxProvider>
+   
 
     <section id="Home"  style={{paddingBottom:'3rem'}}>
 
@@ -70,7 +70,7 @@ function Home() {
             </h1>
           </div>
           <div className="container">
-            <Parallax  speed={-20} className="d-none d-lg-block" >
+           
 
 
             <div
@@ -128,10 +128,8 @@ function Home() {
                 </div>
 
             </div>
-          </Parallax>
-          <Parallax  speed={10}
-                 
-            >
+          
+  
           <div
           className="d-none d-sm-block d-md-none  row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
             <div
@@ -186,23 +184,23 @@ function Home() {
               </div>
               </div>
 
-          </div></Parallax>
+          </div>
           </div>
 
         </div>
         <div>
       <iframe src="https://embed.lottiefiles.com/animation/83087" title="coder" frameBorder="0"style={{pointerEvents: 'none'}}  ></iframe>
         </div>
-        <Parallax  speed={-8} >
+       
         <div className="card-body text-monospace" data-aos="zoom-in-up">
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
             forward in everything I do
         </div>
-      </Parallax>
+     
       </div>
     </section>
-    </ParallaxProvider>
+   
     </>
   );
 }
