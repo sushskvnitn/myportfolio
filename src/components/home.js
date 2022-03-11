@@ -69,7 +69,7 @@ function Home() {
             <div
             className="d-none d-lg-block row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
               <div
-                className="col-xl-3 col-sm-6 mb-5"
+                className="col-xl-3 col-sm-6 mb-5 text-center d-flex justify-content-center"
                 style={{
                   color: "red",
                   marginLeft: "10px",
