@@ -3,8 +3,6 @@ import LoadingBar from "react-top-loading-bar";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
-import {Parallax} from 'react-scroll-parallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
 import Aos from "aos";
 import "aos/dist/aos.css"
 function Home() {
@@ -15,8 +13,6 @@ function Home() {
 
   return (
     <>
-   
-
     <section id="Home"  style={{paddingBottom:'3rem'}}>
 
       <LoadingBar
@@ -70,11 +66,8 @@ function Home() {
             </h1>
           </div>
           <div className="container">
-           
-
-
             <div
-            className="row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
+            className="d-none d-lg-block row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
               <div
                 className="col-xl-3 col-sm-6 mb-5"
                 style={{
@@ -128,8 +121,8 @@ function Home() {
                 </div>
 
             </div>
-          
-  
+      
+
           <div
           className="d-none d-sm-block d-md-none  row text-center d-flex justify-content-center shadow p-3 mb-5 bg-body rounded">
             <div
@@ -191,16 +184,16 @@ function Home() {
         <div>
       <iframe src="https://embed.lottiefiles.com/animation/83087" title="coder" frameBorder="0"style={{pointerEvents: 'none'}}  ></iframe>
         </div>
-       
+        
         <div className="card-body text-monospace" data-aos="zoom-in-up">
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
             forward in everything I do
         </div>
-     
+    
       </div>
     </section>
-   
+  
     </>
   );
 }
