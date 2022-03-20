@@ -1,135 +1,85 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
-import {Parallax} from 'react-scroll-parallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
-
+import Projectcard from "./Projectcard";
 import Aos from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 function Projects() {
   const [Progress, setProgress] = useState(0);
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <><ParallaxProvider>
-    <div id="projects">
-      <br /><br /><br /><h2 className="text-center ">
-       <kbd data-aos="zoom-in-up" >Projects</kbd> </h2>
-       <Parallax  speed={-4} >
-       <h4 data-aos="fade-right" className=" text-center">Here are some of the projects <br />  I have done using HTML , CSS ,Javascript  and React with lot<br /> of animations and features  with their hosting on different platforms  </h4>
-     </Parallax>
+    <>
+      <div id="projects">
+        <br />
+        <br />
+        <br />
+        <h2 className="text-center ">
+          <kbd data-aos="zoom-in-up">Projects</kbd>{" "}
+        </h2>
 
-      <LoadingBar
-        color="#ff0000"
-        progress={Progress}
-        onLoaderFinished={() => setProgress(0)}
-      />
+        <h4 data-aos="fade-right" className=" text-center">
+          Here are some of the projects <br /> I have done using HTML , CSS
+          ,Javascript and React with lot
+          <br /> of animations and features with their hosting on different
+          platforms{" "}
+        </h4>
 
-      <div>
-        <div className="container d-flex flex-wrap">
+        <LoadingBar
+          color="#ff0000"
+          progress={Progress}
+          onLoaderFinished={() => setProgress(0)}
+        />
 
-          <div className="container card-body"  style={{width:"20rem"}} data-aos-delay="1000" data-aos="fade-right"
-          >
-            <img
-              src="https://source.unsplash.com/300x300/?macbook"
-              height="300"
-              width="300"
-              className="img-fluid"
-              alt="..."
-            />
-            <h5 className="card-title">textconvo</h5>
-            <p className="card-text">project 1 :text converter app</p>
-            <a
-              href="https://sushskvnitn.github.io/my-app/"
-              onClick={() => setProgress(100)}
-              className="btn btn-warning"
-            >
-              see my project
-            </a>
-          </div>
-          <div className="container card-body"  style={{width:"20rem"}} data-aos="fade-right" data-aos-delay="1000">
-            <img
-              src="https://source.unsplash.com/300x300/?notes"
-              height="300"
-              width="300"
-              className="img-fluid"
-              alt="..."
-            />
-            <h5 className="card-title">keep notes</h5>
-            <p className="card-text">project 2 :keep notes app</p>
-            <a
-              href="https://sushskvnitn.github.io/keepnote/"
-              onClick={() => setProgress(100)}
-              className="btn btn-warning"
-            >
-              see my project
-            </a>
-          </div>
-
-          <div className="container card-body" style={{width:"20rem"}}  data-aos="fade-right" data-aos-delay="1000">
-            <img
-              src="https://source.unsplash.com/300x300/?laptop"
-              height="300"
-              width="300"
-              className="img-fluid"
-              alt="..."
-            />
-            <h5 className="card-title">mecoder</h5>
-            <p className="card-text">project 3 :simple html css js app</p>
-            <a
-              href="https://sushskvnitn.github.io/mecoder/"
-              onClick={() => setProgress(100)}
-              className="btn btn-warning"
-            >
-              see my project
-            </a>
-          </div>
-          <div className="container card-body" style={{width:"20rem"}}  data-aos-delay="1000" data-aos="fade-right">
-            <img
-              src="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
-              height="300"
-              width="300"
-              className="img-fluid"
-              alt="..."
-            />
-            <h5 className="card-title">health assistant </h5>
-            <p className="card-text">
-              project 4 :Here Html css js health assistant app <br /> including
-              api fetching for diseases info and other
-            </p>
-            <a
-              href="https://sushskvnitn.github.io/health-assistant/"
-              onClick={() => setProgress(100)}
-              className="btn btn-warning"
-            >
-              see my project
-            </a>
-          </div>
-          <div className="container card-body" style={{width:"20rem"}} data-aos-delay="1000" data-aos="fade-right">
-            <img
-              src="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
-              height="300"
-              width="300"
-              className="img-fluid"
-              alt="..."
-            />
-            <h5 className="card-title">snake game</h5>
-            <p className="card-text">
-              project 5 :play snake game made with javascript .
-            </p>
-            <a
-              href="https://sushskvnitn.github.io/snakegame.github.io/"
-              onClick={() => setProgress(100)}
-              className="btn btn-warning"
-            >
-              see my project
-            </a>
+        <div>
+          <div className="container d-flex flex-wrap">
+            <Projectcard
+              title="videochitchat"
+              data="project :video chat application"
+              img="https://source.unsplash.com/300x300/?videocall"
+              srclink="https://videochitchat.netlify.app"
+            ></Projectcard>
+            <Projectcard
+              title="DSA"
+              data="repo : My DSA practice "
+              img="https://source.unsplash.com/300x300/?coding"
+              srclink="https://github.com/sushskvnitn/dsa-practice"
+            ></Projectcard>
+            <Projectcard
+              title="health assistant "
+              data=" project : health assistant app including
+              api fetching for diseases info and other"
+              img="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
+              srclink="https://sushskvnitn.github.io/health-assistant/"
+            ></Projectcard>
+            <Projectcard
+              title="mecoder"
+              data="project :simple html css js app"
+              img="https://source.unsplash.com/300x300/?laptop"
+              srclink="https://sushskvnitn.github.io/mecoder/"
+            ></Projectcard>
+            {/* <Projectcard
+              title="text converter"
+              data="project :text converter app"
+              img="https://source.unsplash.com/300x300/?macbook"
+              srclink="https://sushskvnitn.github.io/my-app/"
+            ></Projectcard> */}
+            <Projectcard
+              title="keep notes"
+              data="project :keep notes app"
+              img="https://source.unsplash.com/300x300/?notes"
+              srclink="https://sushskvnitn.github.io/keepnote/"
+            ></Projectcard>
+            <Projectcard
+              title="snake game"
+              data="project :play snake game made with javascript ."
+              img="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
+              srclink="https://sushskvnitn.github.io/snakegame.github.io/"
+            ></Projectcard>
           </div>
         </div>
       </div>
-      </div>
-      </ParallaxProvider>
     </>
   );
 }
