@@ -1,21 +1,29 @@
-import React from "react";
-
-function footer() {
+import React,{useState, useEffect} from "react";
+import { BsFillBarChartLineFill } from "react-icons/bs";
+function Footer() {
+const [counter, setcounter] = useState(0);
+ function visitorcount() {
+  fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=-5')
+	.then(res => res.json())
+	.then(res => {
+		setcounter(res.value);
+	})
+} 
+useEffect(() => {
+  visitorcount();
+}, []);
   return (
     <>
       <div className="container ">
         <footer
-          className="text-center text-white"
+          className="text-center text-dark"
           style={{ backgroundColor: "#f1f1f1", zIndex: 1 }}
         >
           <div className="container pt-4">
-            {/* <div
-              style={{ pointerEvents: "none" }} id="counter"
-              className="elfsight-app-c6afc8a6-31f1-4627-8cbc-3594062760df"
+            <div className="display-5 lead" > <kbd id="counter "
             >
-              counter
-            </div> */}
-
+           <BsFillBarChartLineFill/>  counts : {counter}
+            </kbd></div>
             <section className="mb-4">
               <a
                 id="footicon"
@@ -77,4 +85,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

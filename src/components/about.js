@@ -114,11 +114,11 @@ export default function CustomizedTimeline() {
     <br/>
     <div className="m-4 py-6" style={{color:' black'}}  data-aos-delay="500" data-aos="zoom-in-up">
 
-      <div class="card" >
-        <div class="card-body">
+      <div className="card" >
+        <div className="card-body">
           <h3>  ACM Student Chapter, VNIT </h3>
-          <h5 class="card-title">Frontend Developer</h5>
-          <p class="card-text">    <br/>
+          <h5 className="card-title">Frontend Developer</h5>
+          <p className="card-text">    <br/>
               ACM Student Chapter, VNIT
               <br/>
               Jan 2022 - Present 2 months+
@@ -129,11 +129,11 @@ export default function CustomizedTimeline() {
     </div>
 
     <div className="m-4 py-6"  style={{color:' black'}} data-aos-delay="500" data-aos="zoom-in-up">
-      <div class="card" >
-        <div class="card-body">
+      <div className="card" >
+        <div className="card-body">
           <h3>  Institute Development Society </h3>
-          <h5 class="card-title">  Web Developer</h5>
-          <p class="card-text">    Institute Development Society, VNIT Nagpur
+          <h5 className="card-title">  Web Developer</h5>
+          <p className="card-text">    Institute Development Society, VNIT Nagpur
               <br/>
               Dec 2021 - Present 3 months+
 
@@ -145,11 +145,11 @@ export default function CustomizedTimeline() {
     <br/>
     </div>
       <div className="m-4 py-6 " style={{color:' black'}} data-aos-delay="500" data-aos="zoom-in-up">
-        <div class="card" >
-          <div class="card-body">
+        <div className="card" >
+          <div className="card-body">
             <h3>    Technical Secretary </h3>
-            <h5 class="card-title">VNIT Nagpur</h5>
-            <p class="card-text">Jul 2021 - Present 8 months+
+            <h5 className="card-title">VNIT Nagpur</h5>
+            <p className="card-text">Jul 2021 - Present 8 months+
             Maharashtra, India</p>
           <br/>
           </div>

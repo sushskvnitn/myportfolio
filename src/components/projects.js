@@ -19,7 +19,7 @@ function Projects() {
           <kbd data-aos="zoom-in-up">Projects</kbd>{" "}
         </h2>
 
-        <h4 data-aos="fade-right" className=" text-center">
+        <h4 data-aos="fade-right " className=" text-center bold lead">
           Here are some of the projects <br /> I have done using HTML , CSS
           ,Javascript and React with lot
           <br /> of animations and features with their hosting on different

@@ -14,6 +14,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
+    "countapi-js": "^1.0.2",
     "framer-motion": "^5.5.5",
     "iframe-resizer-react": "^1.1.0",
     "react": "^17.0.2",
