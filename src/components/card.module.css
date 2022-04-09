@@ -1,0 +1,11 @@
+#card{
+      border: 0.1rem solid #fff;
+    
+       border-radius: 0.5em;
+     box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 1rem #f0e400,
+            0 0 0.8rem #61fe13,
+            0 0 1.8rem #fe3213,
+            inset 0 0 1rem #212429; 
+}
