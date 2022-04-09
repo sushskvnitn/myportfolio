@@ -3,7 +3,7 @@ import { BsFillBarChartLineFill } from "react-icons/bs";
 function Footer() {
 const [counter, setcounter] = useState(0);
  function visitorcount() {
-  fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=-5')
+  fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=1')
 	.then(res => res.json())
 	.then(res => {
 		setcounter(res.value);
