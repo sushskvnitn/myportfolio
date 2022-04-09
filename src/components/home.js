@@ -64,9 +64,9 @@ function Home() {
                     background: "black",
                     width: "22rem",
                     height: "22rem",
-                    border: "0.1rem solid #000000",
+                    
                     boxShadow:
-                      "0 0 1.2rem #fff,0 0 .2rem #fff,0 0 1rem #ff0b00,0 0 1.5rem #ff0b00,0 0 2.8rem #ff0700,inset 0 0 1.3rem #212429",
+                      "0 0 1.2rem #fff,0 0 2.8rem #000000,inset 0 0 1.3rem #000000",
                   }}
                 >
                   <div className="text-white rounded shadow-sm py-5 px-4">
