@@ -10,9 +10,14 @@ function Projects() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <>
+    <>   
       <div id="projects">
         <br />
+    
+
+
+
+
         <br />
         <br />
         <h2 className="text-center ">

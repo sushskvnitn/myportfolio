@@ -5,7 +5,7 @@ import { TiSocialInstagram } from "react-icons/ti";
 import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
-
+import {GiSkills} from "react-icons/gi";
 
 
 
@@ -56,6 +56,16 @@ export default function Navbar() {
                 onClick={() => setProgress(100)}
               >
                 <FaFileAlt /> About
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="skills" smooth={true} duration={1000}
+                onClick={() => setProgress(100)}
+              >
+                <GiSkills /> Skills
               </Link>
             </li>
 

@@ -2,6 +2,8 @@ import React, { useState,useEffect } from "react";
 import { FaGithub, FaLinkedin, FaHackerrank, FaStar } from "react-icons/fa";
 import LoadingBar from "react-top-loading-bar";
 
+import { Parallax } from 'react-scroll-parallax';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -17,9 +19,7 @@ function Socialmedia() {
         <br />
         <br />
         <br />
-        <h2 className="text-center ">
-          <kbd>social media</kbd>
-        </h2>
+
         <br />
         <br />
         <br />
@@ -32,7 +32,7 @@ function Socialmedia() {
         <div className="container">
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
+            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header  btn-danger  text-white"  >
@@ -61,11 +61,15 @@ function Socialmedia() {
             </div>
           </div>
 
+        <ParallaxProvider style={{"zIndex":"-1"}}>
+ <Parallax speed={10}>
+    <h1 className=" contact3 " >social apps</h1></Parallax>
+</ParallaxProvider>
           <br />
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
+            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">
@@ -97,7 +101,7 @@ function Socialmedia() {
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: " 23 rem" }} id='box' data-aos="fade-up"
+            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">

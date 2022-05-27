@@ -21,8 +21,8 @@ const projectcard = (props) => {
           className="img-fluid"
           alt="..."
         />
-        <h5 className="card-title">{props.title}</h5>
-        <p className="card-text-123">{props.data}</p>
+        <h5 className="card-title text-white">{props.title}</h5>
+        <p className="card-text-123  text-white">{props.data}</p>
         <a href={props.srclink} className="btn btn-light text-dark">
           see my project
         </a>

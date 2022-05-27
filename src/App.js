@@ -13,6 +13,7 @@ import RingLoader from "react-spinners/RingLoader";
 import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import AnimatedCursor from "react-animated-cursor"
+import Skills from "./components/skills";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -62,7 +63,9 @@ function App() {
           <Home/>
 
           <About/>
-          <Projects/><Socialmedia/>
+          <Skills/>
+          <Projects/>
+          <Socialmedia/>
           <Contact/>
           <Footer/>
 
