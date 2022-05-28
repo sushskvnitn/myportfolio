@@ -3,8 +3,8 @@ import TagCloud from "TagCloud";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import { Parallax } from 'react-scroll-parallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from "react-scroll-parallax";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const Skills = () => {
   useEffect(() => {
@@ -47,20 +47,21 @@ const Skills = () => {
 
   return (
     <>
-    <div id="skills" className="category bg-black container text-white ">
-    <div id="samples">
-    <br /> <br />  
-    <ParallaxProvider>
- <Parallax speed={20}>
- <h1 className="verti contact3 " >   <pre>      </pre>skills</h1></Parallax>
-</ParallaxProvider>
-</div>
-      <div className="tag-cloud-container d-flex justify-content-center">
-        <div className="tagcloud"></div>
+      <div id="skills" className="category bg-black container text-white ">
+        <div id="samples">
+          <ParallaxProvider>
+            <Parallax speed={20}>
+              <h1 className="verti contact3 ">
+                <pre>   </pre>skills
+              </h1>
+            </Parallax>
+          </ParallaxProvider>
+        </div>
+        <div className="tag-cloud-container d-flex justify-content-center">
+          <div className="tagcloud"></div>
+        </div>
       </div>
-    </div>
     </>
-
   );
 };
 

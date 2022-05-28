@@ -32,7 +32,7 @@ function Socialmedia() {
         <div className="container">
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
+             id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header  btn-danger  text-white"  >
@@ -69,7 +69,7 @@ function Socialmedia() {
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
+             id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">
@@ -101,7 +101,7 @@ function Socialmedia() {
 
           <div
             className="container d-flex justify-content-center content-wrap"
-            style={{ width: "10 rem" }} id='box' data-aos="fade-up"
+             id='box' data-aos="fade-up"
           >
             <div className="card text-dark mb-3 glassmorphi" >
               <div className="card-header btn-danger  text-white">

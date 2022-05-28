@@ -104,6 +104,8 @@ body{
 #box{
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.6);
+  width: "8rem";
+  height: "8rem";
 }
 #tsparticles{
   z-index: -1;

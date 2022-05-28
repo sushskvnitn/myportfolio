@@ -1,6 +1,7 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
-
+import Bounce from "./bounce";
+import MovingComponent from "react-moving-text";
 const Component = () => {
   return (
     <div className="">
@@ -37,24 +38,27 @@ const Component = () => {
                   style={{ zIndex: "-1" }}
                 >
                   <Parallax speed={-15}>
-                    <h1
-                      className="  display-3  sticky-top text-white"
-                      style={{ paddingTop: "12rem" }}
+                    <MovingComponent
+                      type="shakeMix"
+                      duration="2000ms"
+                      timing="linear"
+                      fillMode="forwards"
+                      iteration={1000}
                     >
-                      Hello World!
-                    </h1>
+                      <h1
+                        className="  display-3  sticky-top text-white"
+                        style={{ paddingTop: "12rem" }}
+                      >
+                        Hello World!
+                      </h1>
+                    </MovingComponent>
                   </Parallax>
                   <Parallax
                     translateY={["0px", "-100px"]}
                     scale={[1, 0.25]}
                     easing="easeInQuad"
                   >
-                    <h5
-                      className="   sticky-top text-white"
-                      style={{ paddingTop: "12rem" }}
-                    >
-                      scroll down
-                    </h5>
+                    <Bounce />
                   </Parallax>
                 </div>
               ),
