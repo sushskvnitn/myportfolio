@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import Aos from "aos";
@@ -14,6 +15,7 @@ function Home() {
 
   return (
     <>
+   
 
       <section id="Home" style={{ paddingBottom: "3rem" }}>
         <LoadingBar
@@ -64,9 +66,6 @@ function Home() {
                     background: "black",
                     width: "22rem",
                     height: "22rem",
-                    
-                    boxShadow:
-                      "0 0 1.2rem #fff,0 0 2.8rem #000000,inset 0 0 1.3rem #000000",
                   }}
                 >
                   <div className="text-white rounded shadow-sm py-5 px-4">
@@ -112,6 +111,15 @@ function Home() {
                           <FaGithub />
                         </a>
                       </li>
+                      <li className="list-inline-item">
+                        <a
+                          href="https://leetcode.com/Kogurwarsushant/"
+                          onClick={() => setProgress(100)}
+                          className="social-link"
+                        >
+                          <SiLeetcode />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -119,7 +127,8 @@ function Home() {
             </div>
           </div>
           <div>
-          <Wave fill='#fff'
+          
+          <Wave fill='#fe9428'
         paused={false}
        style={{
           position: 'absolute',

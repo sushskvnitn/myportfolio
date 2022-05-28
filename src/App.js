@@ -14,6 +14,8 @@ import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import AnimatedCursor from "react-animated-cursor"
 import Skills from "./components/skills";
+
+import Parallaxscroll from './components/parallaxscroll';
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -56,6 +58,7 @@ function App() {
       outerScale={8}
               />
         <div>
+        <Parallaxscroll/>
           <div className="sticky-top">
             <Navbar/>
           </div>
