@@ -33,7 +33,7 @@ const Skills = () => {
       "MySQL",
     ];
     const bigScreen = window.matchMedia("(min-width: 421px)");
-    const radius = bigScreen.matches ? 261 : 120;
+    const radius = bigScreen.matches ? 221 : 120;
     const options = {
       radius: radius,
       maxSpeed: "fast",

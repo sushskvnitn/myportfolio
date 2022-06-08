@@ -171,7 +171,7 @@ body{
   opacity:90%;
   width:50%;
   object-fit: cover;
-  height:100%;
+  height:88%;
   z-index:-1;
   margin-top: -200px;
   margin-left: -380px;
@@ -205,17 +205,16 @@ body{
   transition: transform .5s, background-color .5s, color .5s;
 }
 /*the colors of the different columns*/
-.side-menu ul li:nth-child(1) { background-color: #00aced;}
-.side-menu ul li:nth-child(2) { background-color: #e4e81d;}
-.side-menu ul li:nth-child(3) { background-color: #00a300;}
-.side-menu ul li:nth-child(4) { background-color: #1e7145;}
-.side-menu ul li:nth-child(5) { background-color: #cb2027;}
-.side-menu ul li:nth-child(6) { background-color: #0347f4;}
+.side-menu ul li:nth-child(1):hover { background-color: #00aced;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(2):hover { background-color: #e4e81d;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(3):hover { background-color: #00a300;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(4):hover { background-color: #1e7145;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(5):hover { background-color: #cb2027;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(6):hover { background-color: #0347f4;-webkit-transform: translateX(10em);transform: translateX(10em);}
 
-.side-menu ul li:hover {
-  background-color: #339966; /*you can make different colors depending on the nth-child like above*/
-  -webkit-transform: translateX(10em);
-  transform: translateX(10em);/*equal to left in the .side-menu*/
+.side-menu ul li {
+  background-color: #e85f33; /*you can make different colors depending on the nth-child like above*/
+ color: #333;
 }
 .side-menu ul li a {
 display:block;
@@ -248,4 +247,8 @@ display:block;
 .list-inline-item:active{
   color: #000;
   transform: translateX(10em);
+}
+.nav-item:hover(){
+  color: #f1de0f;
+  border: 1px solid #f1de0f;
 }

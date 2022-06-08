@@ -35,9 +35,31 @@ function Home() {
           }}
         >
           <div className="container py-5">
-            <div data-aos="flip-right">
-              <h1 style={{color:"black"}}>
-                I'm
+            <div data-aos="flip-right"className="d-none d-sm-block ">
+             <h1 style={{color:"white",paddingLeft:"42rem",position:"absolute"}}>
+              I'm
+                <span
+                  style={{
+                    color: "red",
+                    fontWeight: "bold",
+                    marginLeft: "10px",
+                  }}
+                >
+                  <Typewriter
+                    loop
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                    deleteSpeed={55}
+                    delaySpeed={1000}
+                    words={["developer", "student", "sushant"]}
+                  />
+                </span>
+              </h1>
+            </div>
+            <div data-aos="flip-right" className="d-sm-none">
+             <h1 style={{color:"white"}}>
+              I'm
                 <span
                   style={{
                     color: "red",
@@ -61,7 +83,7 @@ function Home() {
               src="https://embed.lottiefiles.com/animation/89966"
               title="coder" className="d-none d-sm-block "
               frameBorder="0" id="me"
-              style={{ pointerEvents: "none", width: "100%", height: "100%" }}
+              style={{ pointerEvents: "none", width: "100%" }}
             ></iframe>
 
             <div className="container d-sm-none">
@@ -131,6 +153,10 @@ function Home() {
               </div>
             </div>
           </div>
+
+                  
+
+
           <div>
           
           {/* <Wave fill='#FFFFFF'
@@ -154,8 +180,7 @@ function Home() {
           </div>
       <div className="d-none d-lg-block">
       <br /><br /><br /><br />
-      </div>    
-<br /><br /><br /><br />
+      </div>    <br /><br />
           <div className=" text-monospace my-5" data-aos="zoom-in-down">
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put

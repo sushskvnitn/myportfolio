@@ -62,7 +62,7 @@ export default function Navbar() {
 
             <li className="nav-item">
               <Link
-                className="nav-link"
+                className="nav-link "
                 to="skills" smooth={true} duration={1000}
                 onClick={() => setProgress(100)}
               >

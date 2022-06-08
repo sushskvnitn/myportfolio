@@ -4,7 +4,7 @@ const projectcard = (props) => {
   return (
     <div>
       <div
-        className="container card-body m-1 my-2 " id={Card.card}
+        className="container card-body m-1 my-2 rounded" id={Card.card}
         style={{
           width: "20rem",
           backgroundColor: "#212429",
