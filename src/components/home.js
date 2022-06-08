@@ -36,8 +36,8 @@ function Home() {
         >
           <div className="container py-5">
             <div data-aos="flip-right"className="d-none d-sm-block ">
-             <h1 style={{color:"white",paddingLeft:"42rem",position:"absolute"}}>
-              I'm
+             <h1 style={{color:"white",paddingLeft:"",position:"absolute"}}>
+           I'm
                 <span
                   style={{
                     color: "red",
@@ -81,9 +81,9 @@ function Home() {
             </div>
              <iframe
               src="https://embed.lottiefiles.com/animation/76817"
-              title="coder" className="d-none d-lg-block"
+              title="coder" 
               frameBorder="0" id="me"
-              style={{ pointerEvents: "none", width: "100%" }}
+              style={{ pointerEvents: "none", width: "60%" }}
             ></iframe>
 
             <div className="container d-sm-none">
