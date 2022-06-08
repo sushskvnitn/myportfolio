@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-import { BsFillBarChartLineFill } from "react-icons/bs";
+import CountertopsIcon from '@mui/icons-material/Countertops';
 function Footer() {
 const [counter, setcounter] = useState(0);
  function visitorcount() {
@@ -20,10 +20,10 @@ useEffect(() => {
           style={{ backgroundColor: "#f1f1f1", zIndex: 1 }}
         >
           <div className="container pt-4">
-            <div className="display-5 lead" > <kbd id="counter "
+            <div className="display-5 lead" > <h1 id="counter " className="contact3 font-weight-bold text-black"
             >
-           <BsFillBarChartLineFill/>  views : {counter}
-            </kbd></div>
+           <CountertopsIcon/>  views : {counter}
+            </h1></div>
             <section className="mb-4">
               <a
                 id="footicon"
@@ -48,7 +48,7 @@ useEffect(() => {
               <a
                 id="footicon"
                 className="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="https://www.linkedin.com/in/sushant-kogurwar-2002/"
+                href="https://www.linkedin.com/in/sushant-kogurwar"
                 role="button"
                 data-mdb-ripple-color="dark"
               >

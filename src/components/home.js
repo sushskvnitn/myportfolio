@@ -113,7 +113,7 @@ function Home() {
                     <ul className="social mb-0 list-inline mt-4">
                       <li className="list-inline-item">
                         <a
-                          href="https://www.linkedin.com/in/sushant-kogurwar-2002/"
+                          href="https://www.linkedin.com/in/sushant-kogurwar"
                           onClick={() => setProgress(100)}
                           className="social-link"
                         >

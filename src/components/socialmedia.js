@@ -19,7 +19,7 @@ function Socialmedia() {
           data-aos-duration={2000}
           data-aos-delay={500}>
     <ul>
-      <li><a href="https://www.linkedin.com/in/sushant-kogurwar-2002/">linkedin<span><FaLinkedin/></span></a></li>
+      <li><a href="https://www.linkedin.com/in/sushant-kogurwar">linkedin<span><FaLinkedin/></span></a></li>
       <li><a href="https://leetcode.com/Kogurwarsushant/">leetcode<span><SiLeetcode/></span></a></li>
       <li><a href="https://www.hackerrank.com/Sushantkogurwar">Hackerrank<span><FaHackerrank/></span></a></li>
       <li><a href="https://github.com/sushskvnitn">Github<span><FaGithub/></span></a></li>
