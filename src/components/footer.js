@@ -3,7 +3,7 @@ import CountertopsIcon from '@mui/icons-material/Countertops';
 function Footer() {
 const [counter, setcounter] = useState(0);
  function visitorcount() {
-  fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=-3')
+  fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=1')
 	.then(res => res.json())
 	.then(res => {
 		setcounter(res.value);
