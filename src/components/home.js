@@ -80,8 +80,8 @@ function Home() {
               </h1>
             </div>
              <iframe
-              src="https://embed.lottiefiles.com/animation/89966"
-              title="coder" className="d-none d-sm-block "
+              src="https://embed.lottiefiles.com/animation/76817"
+              title="coder" className="d-none d-lg-block"
               frameBorder="0" id="me"
               style={{ pointerEvents: "none", width: "100%" }}
             ></iframe>
