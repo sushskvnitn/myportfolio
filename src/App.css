@@ -168,11 +168,9 @@ body{
 }
 #me{
   position:absolute;
-  opacity:90%;
   width:50%;
   object-fit: cover;
   height:88%;
-  z-index:-1;
   margin-top: -200px;
   margin-left: -380px;
  
