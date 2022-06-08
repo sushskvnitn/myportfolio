@@ -107,7 +107,7 @@ export default function CustomizedTimeline() {
     </TimelineContent>
   </TimelineItem>
 </Timeline>
-<h1 className="align-center text-center"> <kbd> Experience </kbd> </h1>
+<h1 className="align-center text-centern text-black contact3 font-weight-bold">  Experience </h1>
 <div className="  flex-wrap justify-content-center d-flex    text-center">
 
 

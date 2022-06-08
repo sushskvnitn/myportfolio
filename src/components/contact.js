@@ -2,8 +2,6 @@ import React,{useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import IframeResizer from 'iframe-resizer-react'
-import { Parallax } from 'react-scroll-parallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
 function Contact() {
   useEffect(()=>{
     Aos.init({duration:2000})
@@ -12,16 +10,12 @@ function Contact() {
     <>
 
 
-
+<h1 className="contact3 font-weight-bold" >Contact us</h1>
      <div id="contact" className="container"  >
 
  
       <div className="contact3 py-5">
   <div className="row no-gutters">
- <ParallaxProvider>
- <Parallax speed={10}>
-    <h1>Contact us</h1></Parallax>
-</ParallaxProvider>
     <div className="container" data-aos="fade-right" >
       <div className="row">
       <IframeResizer src="https://embed.lottiefiles.com/animation/81967"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none"}} > </IframeResizer>

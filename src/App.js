@@ -12,10 +12,9 @@ import Projects from "./components/projects";
 import RingLoader from "react-spinners/RingLoader";
 import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
-import AnimatedCursor from "react-animated-cursor"
 import Skills from "./components/skills";
 
-import Parallaxscroll from './components/parallaxscroll';
+// import Parallaxscroll from './components/parallaxscroll';
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -49,16 +48,9 @@ function App() {
   </>)
       : (<div className="display img-fluid">
         <LoadingBar color="#DAA520" progress={progress} onLoaderFinished={() => setProgress(0)}/>
-              <AnimatedCursor
-                innerSize={10}
-      outerSize={10}
-      color='255, 2, 2'
-      outerAlpha={0.4}
-      innerScale={0.7}
-      outerScale={8}
-              />
+              
         <div>
-        <Parallaxscroll/>
+        
           <div className="sticky-top">
             <Navbar/>
           </div>
@@ -71,7 +63,7 @@ function App() {
           <Socialmedia/>
           <Contact/>
           <Footer/>
-
+         {/* <Parallaxscroll/> */}
         </div></div>)
   } </div>
 

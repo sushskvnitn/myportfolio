@@ -20,8 +20,8 @@ function Projects() {
 
         <br />
         <br />
-        <h2 className="text-center ">
-          <kbd data-aos="zoom-in-up">Projects</kbd>{" "}
+        <h2 className="font-weight-bold contact3" data-aos="zoom-in-up">
+         Projects
         </h2>
 
         <h4 data-aos="fade-right " className=" text-center bold lead">
@@ -64,12 +64,6 @@ function Projects() {
               img="https://source.unsplash.com/300x300/?laptop"
               srclink="https://sushskvnitn.github.io/mecoder/"
             ></Projectcard>
-            {/* <Projectcard
-              title="text converter"
-              data="project :text converter app"
-              img="https://source.unsplash.com/300x300/?macbook"
-              srclink="https://sushskvnitn.github.io/my-app/"
-            ></Projectcard> */}
             <Projectcard
               title="keep notes"
               data="project :keep notes app"

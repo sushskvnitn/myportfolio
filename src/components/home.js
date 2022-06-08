@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Wave from 'react-wavify'
+// import Wave from 'react-wavify'
 function Home() {
   const [Progress, setProgress] = useState(0);
   useEffect(() => {
@@ -57,18 +57,23 @@ function Home() {
                 </span>
               </h1>
             </div>
-            <div className="container">
-              <div className="row text-center d-flex justify-content-center shadow p-3 mb-5  rounded">
+             <iframe
+              src="https://embed.lottiefiles.com/animation/89966"
+              title="coder" className="d-none d-sm-block "
+              frameBorder="0" id="me"
+              style={{ pointerEvents: "none", width: "100%", height: "100%" }}
+            ></iframe>
+
+            <div className="container d-sm-none">
+              <div className="row text-center d-flex justify-content-center shadow p-3 mb-5  rounded hidden" >
                 <div
-                  className="col-xl-3 col-sm-6 mb-5"
+                  className="col-xl-3 col-sm-6 mb-5 bgmi"
                   style={{
-                    color: "red",
-                    background: "black",
                     width: "22rem",
                     height: "22rem",
                   }}
                 >
-                  <div className="text-white rounded shadow-sm py-5 px-4">
+                  <div className="rounded shadow-sm py-5 px-4 ">
                     <img
                       src="https://i.postimg.cc/4dXvghtX/IMG-20211106-214519-447.jpg"
                       data-aos="fade-zoom-in"
@@ -128,33 +133,30 @@ function Home() {
           </div>
           <div>
           
-          <Wave fill='#fe9428'
+          {/* <Wave fill='#FFFFFF'
         paused={false}
        style={{
           position: 'absolute',
           top: '0',
           left: '0',
           width: '100%',
-          height: '60%',
+          height: '68%',
           zIndex: '-1',
        }}
         options={{
           height: 50,
           amplitude: 50,
-          speed: 0.2,
-          points: 4
+          speed: 0.075,
+          points: 6
         }}
-  />
-            <iframe
-              src="https://embed.lottiefiles.com/animation/83087"
-              title="coder"
-              frameBorder="0"
-              style={{ pointerEvents: "none" }}
-            ></iframe>
+  /> */}
+           
           </div>
-          
-
-          <div className="card-body text-monospace" data-aos="zoom-in-up">
+      <div className="d-none d-lg-block">
+      <br /><br /><br /><br />
+      </div>    
+<br /><br /><br /><br />
+          <div className=" text-monospace my-5" data-aos="zoom-in-down">
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
             forward in everything I do

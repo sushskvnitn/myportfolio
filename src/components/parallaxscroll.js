@@ -1,6 +1,5 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
-import Bounce from "./bounce";
 import MovingComponent from "react-moving-text";
 const Component = () => {
   return (
@@ -45,26 +44,20 @@ const Component = () => {
                       fillMode="forwards"
                       iteration={1000}
                     >
-                      <h1
+                      <h4
                         className="  display-3  sticky-top text-white"
                         style={{ paddingTop: "12rem" }}
                       >
-                        Hello World!
-                      </h1>
+                        thank you for visiting 
+                      </h4>
                     </MovingComponent>
                   </Parallax>
-                  <Parallax
-                    translateY={["0px", "-100px"]}
-                    scale={[1, 0.25]}
-                    easing="easeInQuad"
-                  >
-                    <Bounce />
-                  </Parallax>
+                 
                 </div>
               ),
             },
             {
-              opacity: [0, 1, "easeOutCubic"],
+              opacity: [1, 0, "easeOutCubic"],
               shouldAlwaysCompleteAnimation: true,
               expanded: false,
               children: <div className="gradint inset" />,
@@ -81,7 +74,7 @@ const Component = () => {
                 className="  display-3  sticky-top text-white"
                 style={{ paddingTop: "12rem" }}
               >
-                Hello World!
+               
               </h1>
             </Parallax>
           </div>

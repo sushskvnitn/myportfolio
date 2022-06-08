@@ -11,7 +11,6 @@ const projectcard = (props) => {
           margin: "auto",
           
         }}
-        data-aos-delay="1000"
         data-aos="fade-right"
       >
         <img

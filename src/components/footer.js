@@ -22,7 +22,7 @@ useEffect(() => {
           <div className="container pt-4">
             <div className="display-5 lead" > <kbd id="counter "
             >
-           <BsFillBarChartLineFill/>  counts : {counter}
+           <BsFillBarChartLineFill/>  views : {counter}
             </kbd></div>
             <section className="mb-4">
               <a

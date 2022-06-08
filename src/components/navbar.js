@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaFileAlt } from "react-icons/fa";
-import { TiSocialInstagram } from "react-icons/ti";
+// import { TiSocialInstagram } from "react-icons/ti";
 import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
 import {GiSkills} from "react-icons/gi";
-
+import Image from "./logo.png";
 
 
 export default function Navbar() {
@@ -21,11 +21,12 @@ export default function Navbar() {
       />
       <nav
         className="navbar sticky-top navbar-expand-lg navbar-dark "
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "black" }} data-aos-delay="500"
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#111F4D",zIndex:"1" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
-          MyPortFolio
+        <img src={Image} alt="" height="45" width="50"/>portfolio
         </Link>
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -78,7 +79,7 @@ export default function Navbar() {
                 <IoAlbumsSharp /> projects
               </Link>
             </li>
-                     <li className="nav-item ">
+                     {/* <li className="nav-item ">
               <Link
                 className="nav-link"
                 to="social" smooth={true} duration={1500}
@@ -86,7 +87,7 @@ export default function Navbar() {
               >
                 <TiSocialInstagram /> social media
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item ">
               <Link
                 className="nav-link"

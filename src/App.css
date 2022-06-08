@@ -1,18 +1,19 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #111F4D;
     color:white;
     font-size: 18px;
-    
+    cursor: default;
   }
   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto+Mono:wght@300&display=swap');
 .Home{
   z-index: 1;
+  cursor: default;
 }
 
 .loader{
   text-align: center;
-  background: linear-gradient(to right, #020100, #fe9428);
+  background: linear-gradient(to right, #E43A19, #272343);
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -44,11 +45,13 @@ body{
 
 #about{
   background: rgb(255, 255, 255);
-  color:#020100
+  color:#020100;
+  cursor: default;
 }
 #projects{
   background: rgb(255, 255, 255);
-  color:#020100
+  color:#020100;
+  cursor: default;
 }
 #footer{
   background: rgb(255, 255, 255);
@@ -98,8 +101,6 @@ body{
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
-
-
 
 #box{
   overflow: hidden;
@@ -165,4 +166,86 @@ body{
   position: absolute;
   inset: 0;
 }
+#me{
+  position:absolute;
+  opacity:90%;
+  width:50%;
+  object-fit: cover;
+  height:100%;
+  z-index:-1;
+  margin-top: -200px;
+  margin-left: -380px;
+ 
+}
 
+.side-menu { position: absolute;
+  width:14em;
+  height: auto;
+  margin:9em auto 0;
+  font-size: 1em;
+  line-height: 2em;
+  color: #fff;
+  font-weight:700;
+  text-transform:uppercase;
+  top:0; 
+  bottom:0;
+  left: -10em;
+}
+.side-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.side-menu ul li {
+  background-color: #333;
+  height: 3em;
+  padding: 1em 1em;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s,     background-color .5s, color .5s;
+  transition: transform .5s, background-color .5s, color .5s;
+}
+/*the colors of the different columns*/
+.side-menu ul li:nth-child(1) { background-color: #00aced;}
+.side-menu ul li:nth-child(2) { background-color: #e4e81d;}
+.side-menu ul li:nth-child(3) { background-color: #00a300;}
+.side-menu ul li:nth-child(4) { background-color: #1e7145;}
+.side-menu ul li:nth-child(5) { background-color: #cb2027;}
+.side-menu ul li:nth-child(6) { background-color: #0347f4;}
+
+.side-menu ul li:hover {
+  background-color: #339966; /*you can make different colors depending on the nth-child like above*/
+  -webkit-transform: translateX(10em);
+  transform: translateX(10em);/*equal to left in the .side-menu*/
+}
+.side-menu ul li a {
+display:block;
+  color: #FFF;
+  text-decoration: none;
+}
+.side-menu ul li span {
+  display:block;
+  position: absolute;
+  font-size:1em;
+  line-height: 2em;
+  height:2em;
+  top:0; 
+  bottom:0;
+  margin:0 auto;
+  padding:1em 1.5em;
+  right: 0.16666666666667em;
+  color: #F8F6FF;
+}
+.bgmi{
+  color: #272343;
+   background: #F2F4F7
+}
+.bgmi:hover{
+  color: #ffffff;
+  background-color: #003366;
+  border-radius: 3px;
+}
+
+.list-inline-item:active{
+  color: #000;
+  transform: translateX(10em);
+}
