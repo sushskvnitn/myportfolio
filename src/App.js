@@ -13,7 +13,6 @@ import RingLoader from "react-spinners/RingLoader";
 import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import Skills from "./components/skills";
-
 // import Parallaxscroll from './components/parallaxscroll';
 function App() {
   const [loading, setLoading] = useState(false);
@@ -48,7 +47,9 @@ function App() {
   </>)
       : (<div className="display img-fluid">
         <LoadingBar color="#DAA520" progress={progress} onLoaderFinished={() => setProgress(0)}/>
-              
+        
+            
+   
         <div>
         
           <div className="sticky-top">
@@ -56,7 +57,6 @@ function App() {
           </div>
 
           <Home/>
-
           <About/>
           <Skills/>
           <Projects/>

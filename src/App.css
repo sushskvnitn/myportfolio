@@ -34,7 +34,7 @@ body{
   font-size: 0.9rem;
 }
 .dark-mode {
-  background-color: white;
+  background-color: #F2F4F7;
   color: black;
 }
 .social-link:hover, .social-link:focus {
@@ -44,17 +44,17 @@ body{
 }
 
 #about{
-  background: rgb(255, 255, 255);
+  background: #F2F4F7;
   color:#020100;
   cursor: default;
 }
 #projects{
-  background: rgb(255, 255, 255);
+  background:#F2F4F7;
   color:#020100;
   cursor: default;
 }
 #footer{
-  background: rgb(255, 255, 255);
+  background: #F2F4F7;
   color:#020100
 }
 
@@ -170,9 +170,9 @@ body{
   position:absolute;
   width:50%;
   object-fit: cover;
-  height:88%;
+  height:95%;
   
-  margin-top: -180px;
+  margin-top: -150px;
   margin-left: -280px;
  
 }
@@ -235,12 +235,13 @@ display:block;
 }
 .bgmi{
   color: #272343;
-   background: #F2F4F7
+   background: #F2F4F7;
+  border-radius: 30% 70% 49% 51% / 30% 30% 70% 70% ;
 }
 .bgmi:hover{
   color: #ffffff;
   background-color: #003366;
-  border-radius: 3px;
+  border-radius: 30% 70% 49% 51% / 30% 30% 70% 70% ;
 }
 
 .list-inline-item:active{
@@ -250,4 +251,12 @@ display:block;
 .nav-item:hover(){
   color: #f1de0f;
   border: 1px solid #f1de0f;
+}
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 480px) {
+   .lottie {
+      visibility: hidden !important;
+  }
 }

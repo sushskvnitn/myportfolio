@@ -82,7 +82,7 @@ function Home() {
              <iframe
               src="https://embed.lottiefiles.com/animation/108777"
               title="coder" 
-              frameBorder="0" id="me"
+              frameBorder="0" id="me" className="lottie"
               style={{ pointerEvents: "none", width: "60%" }}
             ></iframe>
 
@@ -153,39 +153,16 @@ function Home() {
               </div>
             </div>
           </div>
-
-                  
-
-
           <div>
-          
-          {/* <Wave fill='#FFFFFF'
-        paused={false}
-       style={{
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          width: '100%',
-          height: '68%',
-          zIndex: '-1',
-       }}
-        options={{
-          height: 50,
-          amplitude: 50,
-          speed: 0.075,
-          points: 6
-        }}
-  /> */}
-           
+  
           </div>
-      <div className="d-none d-lg-block">
-      <br /><br /><br /><br />
-      </div>    <br /><br />
-          <div className=" text-monospace my-5" data-aos="zoom-in-down">
+     
+          <h3 className=" text-monospace my-5 py-5" data-aos="zoom-in-down">
+          <br /> <br /><br />
             I'm a student with a focus on technical development. <br />
             I'm hardworking, diligent, and <br /> dedicated—all qualities I put
-            forward in everything I do
-          </div>
+            forward in everything I do<br />
+          </h3>
         </div>
       </section>
     </>
