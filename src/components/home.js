@@ -38,7 +38,7 @@ function Home() {
             <div data-aos="flip-right"className="d-none d-sm-block ">
              <h1 style={{color:"white",paddingLeft:"5rem",position:"absolute"}}>
            I'm
-                <span
+                <span className="cursorr"
                   style={{
                     color: "#e85f33",
                     fontWeight: "bold",
@@ -60,15 +60,15 @@ function Home() {
             <div data-aos="flip-right" className="d-sm-none">
              <h1 style={{color:"white"}}>
               I'm
-                <span
+                <span className="cursorr"
                   style={{
-                    color: "red",
+                    color: "#e85f33",
                     fontWeight: "bold",
                     marginLeft: "10px",
                   }}
                 >
                   <Typewriter
-                    loop
+                    loop 
                     cursor
                     cursorStyle="|"
                     typeSpeed={70}

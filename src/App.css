@@ -260,3 +260,7 @@ and (max-device-width : 480px) {
       visibility: hidden !important;
   }
 }
+
+.cursorr:hover{
+  color:#fd4a0e
+}

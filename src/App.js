@@ -37,7 +37,7 @@ function App() {
               color: "red",
               fontWeight: "bold"
             }}>
-            <Typewriter loop="loop" cursor="cursor" cursorStyle="|" typeSpeed={80} deleteSpeed={100} delaySpeed={100} words={["welcome", "नमस्ते", "స్వాగతం"]}/>
+            <Typewriter loop="loop"  cursor="cursor" cursorStyle="|" typeSpeed={80} deleteSpeed={100} delaySpeed={100} words={["welcome", "नमस्ते", "స్వాగతం"]}/>
           </span>
         </h1>
       </div>
