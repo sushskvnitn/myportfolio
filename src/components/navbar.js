@@ -24,7 +24,7 @@ export default function Navbar() {
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#111F4D",zIndex:"1" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
-        <img src={Image} alt="" height="45" width="50"/>portfolio
+        <img src={Image} alt="" className="sticky-top" height="50" width="65"/>portfolio
         </Link>
         
         <button

@@ -171,8 +171,9 @@ body{
   width:50%;
   object-fit: cover;
   height:88%;
-  margin-top: -200px;
-  margin-left: -380px;
+  
+  margin-top: -180px;
+  margin-left: -280px;
  
 }
 
@@ -203,10 +204,10 @@ body{
   transition: transform .5s, background-color .5s, color .5s;
 }
 /*the colors of the different columns*/
-.side-menu ul li:nth-child(1):hover { background-color: #00aced;-webkit-transform: translateX(10em);transform: translateX(10em);}
-.side-menu ul li:nth-child(2):hover { background-color: #e4e81d;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(1):hover { background-color: #0a66c3;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(2):hover { background-color: #ffb913;color:#ffb913;-webkit-transform: translateX(10em);transform: translateX(10em);}
 .side-menu ul li:nth-child(3):hover { background-color: #00a300;-webkit-transform: translateX(10em);transform: translateX(10em);}
-.side-menu ul li:nth-child(4):hover { background-color: #1e7145;-webkit-transform: translateX(10em);transform: translateX(10em);}
+.side-menu ul li:nth-child(4):hover { background-color: #161b21;-webkit-transform: translateX(10em);transform: translateX(10em);}
 .side-menu ul li:nth-child(5):hover { background-color: #cb2027;-webkit-transform: translateX(10em);transform: translateX(10em);}
 .side-menu ul li:nth-child(6):hover { background-color: #0347f4;-webkit-transform: translateX(10em);transform: translateX(10em);}
 
