@@ -1,5 +1,5 @@
 body{
-    background-color: #111F4D;
+    background-color: #01181a;
     color:white;
     font-size: 18px;
     cursor: default;
@@ -13,7 +13,7 @@ body{
 
 .loader{
   text-align: center;
-  background: linear-gradient(to right, #E43A19, #272343);
+  background: linear-gradient(to right, #d5ca4c, #00181a);
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +62,7 @@ body{
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 .contact3 {
   font-family: "Montserrat", sans-serif;
-  color: #8d97ad;
+  color: #d6ca4a;
   font-weight: 300;
 }
 
@@ -177,6 +177,7 @@ body{
  
 }
 
+
 .side-menu { position: absolute;
   width:14em;
   height: auto;
@@ -188,6 +189,7 @@ body{
   text-transform:uppercase;
   top:0; 
   bottom:0;
+  border-radius: 1;
   left: -10em;
 }
 .side-menu ul {
@@ -212,8 +214,8 @@ body{
 .side-menu ul li:nth-child(6):hover { background-color: #0347f4;-webkit-transform: translateX(10em);transform: translateX(10em);}
 
 .side-menu ul li {
-  background-color: #e85f33; /*you can make different colors depending on the nth-child like above*/
- color: #333;
+  background-color: #d6ca4a; /*you can make different colors depending on the nth-child like above*/
+ color: rgb(17, 2, 2);
 }
 .side-menu ul li a {
 display:block;
@@ -240,7 +242,7 @@ display:block;
 }
 .bgmi:hover{
   color: #ffffff;
-  background-color: #003366;
+  background-color: #d6ca4a;
   border-radius: 30% 70% 49% 51% / 30% 30% 70% 70% ;
 }
 
@@ -263,4 +265,52 @@ and (max-device-width : 480px) {
 
 .cursorr:hover{
   color:#fd4a0e
+}
+
+.bounce-in-top {
+  font-size: 2.1em;
+	animation: bounce-in-top 5s cubic-bezier(0.785, 0.135, 0.150, 0.860) 3s infinite both;
+}
+
+
+ @keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
+
+
+.codesx:hover{
+  animation: zoomin 1s;
 }

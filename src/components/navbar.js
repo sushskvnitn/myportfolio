@@ -6,8 +6,8 @@ import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
 import {GiSkills} from "react-icons/gi";
-import Image from "./logo.png";
-
+// import Image from "./logo.png";
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
   const [Progress, setProgress] = useState(0);
@@ -20,11 +20,11 @@ export default function Navbar() {
         onLoaderFinished={() => setProgress(0)}
       />
       <nav
-        className="navbar sticky-top navbar-expand-lg navbar-dark "
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#111F4D",zIndex:"1" }} data-aos-delay="500"
+        className="navbar sticky-top navbar-expand-lg  "
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#00181a",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
-        <img src={Image} alt="" className="sticky-top" height="50" width="65"/>portfolio
+        <img src="https://i.postimg.cc/sDpnYSvg/12322.png" alt="" className="sticky-top mx-3 img-fluid"  height="50" width="50"/>
         </Link>
         
         <button
@@ -33,15 +33,15 @@ export default function Navbar() {
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded="false" style={{ color:"#d6ca4a" }}
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+        <MenuIcon/>
         </button>
 
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item  ">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li className="nav-item  mx-3  ">
               <Link
                 className="nav-link "
                 to="Home" smooth={true} duration={1500}
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <IoIosHome /> Home <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3 ">
               <Link
                 className="nav-link"
                 to="about" smooth={true} duration={1000}
@@ -60,7 +60,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item mx-3 ">
               <Link
                 className="nav-link "
                 to="skills" smooth={true} duration={1000}
@@ -70,7 +70,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item ">
+            <li className="nav-item  mx-3 ">
               <Link
                 className="nav-link"
                 to="projects" smooth={true} duration={1500}
@@ -88,7 +88,7 @@ export default function Navbar() {
                 <TiSocialInstagram /> social media
               </Link>
             </li> */}
-            <li className="nav-item ">
+            <li className="nav-item  mx-3 ">
               <Link
                 className="nav-link"
                 to="contact" smooth={true} duration={1500}

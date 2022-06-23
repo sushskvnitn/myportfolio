@@ -15,8 +15,6 @@ function Home() {
 
   return (
     <>
-   
-
       <section id="Home" style={{ paddingBottom: "3rem" }}>
         <LoadingBar
           color="#FFFF00"
@@ -36,9 +34,10 @@ function Home() {
         >
           <div className="container py-5">
             <div data-aos="flip-right"className="d-none d-sm-block ">
-             <h1 style={{color:"white",paddingLeft:"5rem",position:"absolute"}}>
-           I'm
-                <span className="cursorr"
+            {/* #37dfa3 */}
+             <h1 className="bounce-in-top" style={{color:"#d6ca4a",paddingLeft:"5rem",marginTop:"2rem",fontWeight:"bold",}}>
+               Sushant Kogurwar
+                {/* <span className="cursorr"
                   style={{
                     color: "#e85f33",
                     fontWeight: "bold",
@@ -54,15 +53,21 @@ function Home() {
                     delaySpeed={1000}
                     words={["developer", "student", "sushant"]}
                   />
-                </span>
+                </span> */}
               </h1>
+              <div className=" codesx">
+              <iframe src="https://embed.lottiefiles.com/animation/49011"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none" ,height:"350%",width:"350"}} > </iframe>
+              
+                {/* <img src="https://i.postimg.cc/bw0fgh0c/undraw-Code-typing-re-p8b9-removebg-preview.png" className="img-fluid " alt="" srcset="" height="250" width=""/> */}
+              </div>
             </div>
+
             <div data-aos="flip-right" className="d-sm-none">
              <h1 style={{color:"white"}}>
               I'm
                 <span className="cursorr"
                   style={{
-                    color: "#e85f33",
+                    color: "#d6ca4a",
                     fontWeight: "bold",
                     marginLeft: "10px",
                   }}
@@ -79,12 +84,7 @@ function Home() {
                 </span>
               </h1>
             </div>
-             <iframe
-              src="https://embed.lottiefiles.com/animation/108777"
-              title="coder" 
-              frameBorder="0" id="me" className="lottie"
-              style={{ pointerEvents: "none", width: "60%" }}
-            ></iframe>
+             
 
             <div className="container d-sm-none">
               <div className="row text-center d-flex justify-content-center shadow p-3 mb-5  rounded hidden" >
@@ -153,16 +153,29 @@ function Home() {
               </div>
             </div>
           </div>
-          <div>
-  
-          </div>
-     
-          <h3 className=" text-monospace my-5 py-5" data-aos="zoom-in-down">
-          <br /> <br /><br />
-            I'm a student with a focus on technical development. <br />
-            I'm hardworking, diligent, and <br /> dedicated—all qualities I put
-            forward in everything I do<br />
+          
+   
+          <div style={{height: '100%'}} >
+         
+          <h3 className="  d-flex justify-content-center " data-aos="zoom-in-down">
+          <br /><br /><br /> <br /><br /><br /><br />
+           <div className="w-50"  >
+            <span 
+                >
+                  <Typewriter
+                    loop
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={80}
+                    deleteSpeed={55}
+                    delaySpeed={1000}
+                    words={["Hello , I'm a student with a focus on technical development.I'm hardworking, diligent, and  dedicated—all qualities I put forward in everything I do"]}
+                  />
+                </span>
+                </div>
+                
           </h3>
+          </div>
         </div>
       </section>
     </>

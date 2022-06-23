@@ -13,11 +13,6 @@ function Projects() {
     <>   
       <div id="projects">
         <br />
-    
-
-
-
-
         <br />
         <br />
         <h2 className="font-weight-bold contact3" data-aos="zoom-in-up">
@@ -45,19 +40,20 @@ function Projects() {
               img="https://source.unsplash.com/300x300/?videocall"
               srclink="https://videochitchat.netlify.app"
             ></Projectcard>
+              <Projectcard
+              title="Laundry Management System"
+              data=" project : Laundry Management System api fetching for diseases info and other"
+              img="https://source.unsplash.com/300x300/?laundry"
+              srclink="https://laundryme.herokuapp.com/"
+            ></Projectcard>
+
             <Projectcard
               title="DSA"
               data="repo : My DSA practice "
               img="https://source.unsplash.com/300x300/?coding"
               srclink="https://github.com/sushskvnitn/dsa-practice"
             ></Projectcard>
-            <Projectcard
-              title="health assistant "
-              data=" project : health assistant app including
-              api fetching for diseases info and other"
-              img="https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9jdG9yfHx8fHx8MTY0MDMzMTg3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
-              srclink="https://sushskvnitn.github.io/health-assistant/"
-            ></Projectcard>
+          
             <Projectcard
               title="mecoder"
               data="project :simple html css js app"

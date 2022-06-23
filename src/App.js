@@ -34,7 +34,7 @@ function App() {
 
           Hello_
           <span style={{
-              color: "red",
+              color: "#00181a",
               fontWeight: "bold"
             }}>
             <Typewriter loop="loop"  cursor="cursor" cursorStyle="|" typeSpeed={80} deleteSpeed={100} delaySpeed={100} words={["welcome", "नमस्ते", "స్వాగతం"]}/>

@@ -118,7 +118,7 @@ export default function CustomizedTimeline() {
         <div className="card-body">
           <h3 style={{color:'#111F4D'}} >  ACM Student Chapter, VNIT </h3>
           <h5 className="card-title">Frontend Developer</h5>
-          <p  className="card-text" style={{color:'#E43A19',opacity:'80'}} >    <br/>
+          <p  className="card-text" style={{color:'#00181a',opacity:'80'}} >    <br/>
               ACM Student Chapter, VNIT
               <br/>
               Jan 2022 - Present 2 months+
@@ -133,7 +133,7 @@ export default function CustomizedTimeline() {
         <div className="card-body">
           <h3 style={{color:'#111F4D'}}>  Institute Development Society </h3>
           <h5 className="card-title">  Web Developer</h5>
-          <p  className="card-text" style={{color:'#E43A19'}} >    Institute Development Society, VNIT Nagpur
+          <p  className="card-text" style={{color:'#00181a'}} >    Institute Development Society, VNIT Nagpur
               <br/>
               Dec 2021 - Present 3 months+
 
@@ -149,7 +149,7 @@ export default function CustomizedTimeline() {
           <div className="card-body">
             <h3 style={{color:'#111F4D'}}>    Technical Secretary </h3>
             <h5 className="card-title">VNIT Nagpur</h5>
-            <p  className="card-text" style={{color:'#E43A19'}} >Jul 2021 - Present 8 months+
+            <p  className="card-text" style={{color:'#00181a'}} >Jul 2021 - Present 8 months+
             Maharashtra, India</p>
           <br/>
           </div>
