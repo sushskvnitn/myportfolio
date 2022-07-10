@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from "react";
 import CountertopsIcon from '@mui/icons-material/Countertops';
+import {SiLeetcode} from "react-icons/si";
 function Footer() {
 const [counter, setcounter] = useState(0);
  function visitorcount() {
@@ -33,6 +34,16 @@ useEffect(() => {
                 data-mdb-ripple-color="dark"
               >
                 <i className="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                id="footicon"
+                className="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="https://leetcode.com/Kogurwarsushant/"
+                role="button"
+                data-mdb-ripple-color="dark"
+              > <SiLeetcode />
+                
               </a>
 
               <a

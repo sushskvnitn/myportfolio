@@ -37,28 +37,12 @@ function Home() {
             {/* #37dfa3 */}
              <h1 className="bounce-in-top" style={{color:"#d6ca4a",paddingLeft:"5rem",marginTop:"2rem",fontWeight:"bold",}}>
                Sushant Kogurwar
-                {/* <span className="cursorr"
-                  style={{
-                    color: "#e85f33",
-                    fontWeight: "bold",
-                    marginLeft: "10px",
-                  }}
-                >
-                  <Typewriter
-                    loop
-                    cursor
-                    cursorStyle="|"
-                    typeSpeed={70}
-                    deleteSpeed={55}
-                    delaySpeed={1000}
-                    words={["developer", "student", "sushant"]}
-                  />
-                </span> */}
+          
               </h1>
-              <div className=" codesx">
-              <iframe src="https://embed.lottiefiles.com/animation/49011"  frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none" ,height:"350%",width:"350"}} > </iframe>
-              
-                {/* <img src="https://i.postimg.cc/bw0fgh0c/undraw-Code-typing-re-p8b9-removebg-preview.png" className="img-fluid " alt="" srcset="" height="250" width=""/> */}
+              <div className=" codesx"  >
+             
+              <iframe src="https://embed.lottiefiles.com/animation/82423"   frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none" ,height:"13rem"}} > </iframe>
+            <a className="btn rounded-circle btn-danger p-1 shake" target="_blank" href="https://linktr.ee/Sushantsk"  rel="noreferrer" >  </a>
               </div>
             </div>
 
@@ -155,7 +139,7 @@ function Home() {
           </div>
           
    
-          <div style={{height: '100%'}} >
+          <div style={{height: '100%'}} className="d-none d-sm-block" >
          
           <h3 className="  d-flex justify-content-center " data-aos="zoom-in-down">
           <br /><br /><br /> <br /><br /><br /><br />
