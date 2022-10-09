@@ -60,7 +60,8 @@ function App() {
           <About/>
           <Skills/>
           <Projects/>
-          <Socialmedia/>
+        
+            <Socialmedia/>
           <Contact/>
           <Footer/>
          {/* <Parallaxscroll/> */}

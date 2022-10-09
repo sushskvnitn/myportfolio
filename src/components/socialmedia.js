@@ -14,9 +14,13 @@ function Socialmedia() {
 
   return (
     <>
-  <nav className="side-menu  sticky-top d-none d-sm-block " 
+  <nav className="side-menu d-none d-sm-block " 
           data-aos="fade-right"
-          data-aos-duration={2000}
+          data-aos-duration={2000} 
+          style={{
+            position: "sticky",
+           
+          }}
           data-aos-delay={500}>
     <ul>
       <li><a    href="https://www.linkedin.com/in/sushant-kogurwar">linkedin<span><FaLinkedin/></span></a></li>
