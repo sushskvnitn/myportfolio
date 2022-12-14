@@ -20,7 +20,7 @@ export default function Navbar() {
         onLoaderFinished={() => setProgress(0)}
       />
       <nav
-        className="navbar sticky-top navbar-expand-lg  "
+        className="navbar sticky-top navbar-expand-lg fill "
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#00181a",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
@@ -43,7 +43,7 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li className="nav-item  mx-3  ">
               <Link
-                className="nav-link "
+                className="nav-link navhov mx-2 "
                 to="Home" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
@@ -52,7 +52,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item mx-3 ">
               <Link
-                className="nav-link"
+                className="nav-link navhov mx-2"
                 to="about" smooth={true} duration={1000}
                 onClick={() => setProgress(100)}
               >
@@ -62,7 +62,7 @@ export default function Navbar() {
 
             <li className="nav-item mx-3 ">
               <Link
-                className="nav-link "
+                className="nav-link navhov mx-2 "
                 to="skills" smooth={true} duration={1000}
                 onClick={() => setProgress(100)}
               >
@@ -72,7 +72,7 @@ export default function Navbar() {
 
             <li className="nav-item  mx-3 ">
               <Link
-                className="nav-link"
+                className="nav-link navhov mx-2"
                 to="projects" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
@@ -81,7 +81,7 @@ export default function Navbar() {
             </li>
                      {/* <li className="nav-item ">
               <Link
-                className="nav-link"
+                className="nav-link navhov mx-2"
                 to="social" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
@@ -90,7 +90,7 @@ export default function Navbar() {
             </li> */}
             <li className="nav-item  mx-3 ">
               <Link
-                className="nav-link"
+                className="nav-link navhov mx-2"
                 to="contact" smooth={true} duration={1500}
                 onClick={() => setProgress(100)}
               >
