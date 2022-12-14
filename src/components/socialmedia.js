@@ -14,7 +14,7 @@ function Socialmedia() {
 
   return (
     <>
-  <nav className="side-menu d-none d-sm-block " 
+  <nav className="side-menu d-none d-sm-block float-left" 
           data-aos="fade-right"
           data-aos-duration={2000} 
           style={{

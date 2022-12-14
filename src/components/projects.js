@@ -44,7 +44,7 @@ function Projects() {
               title="Laundry Management System"
               data=" project : Laundry Management System api fetching for diseases info and other"
               img="https://source.unsplash.com/300x300/?laundry"
-              srclink="https://laundryme.herokuapp.com/"
+              srclink="https://laundry-shop.vercel.app/"
             ></Projectcard>
 
             <Projectcard

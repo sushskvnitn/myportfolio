@@ -7,7 +7,7 @@ function Contact() {
     Aos.init({duration:2000})
   },[])
   return (
-    <>
+    <div styles={{ marginTop:"-30rem" }}>
 
 
 <h1 className="contact3 font-weight-bold" >Contact us</h1>
@@ -65,7 +65,7 @@ function Contact() {
   </div>
 </div>
       </div>
-    </>
+    </div>
   );
 }
 
