@@ -35,6 +35,14 @@ function Projects() {
         <div>
           <div className="container d-flex flex-wrap">
             <Projectcard
+              title="Sarc hospital website"
+              data="project :
+I developed a hospital website as a freelancer, featuring detailed hospital information, services, and a secure login system with JWT authentication for doctors. Patients can book appointments, receive emails with PDF attachments containing unique token numbers, and use them when visiting the hospital. To send these emails, I utilized the SendinBlue npm package in Node.js for reliable and efficient delivery. "
+              img="https://source.unsplash.com/300x300/?hospital"
+              srclink="http://sanjeevanarc.com/"
+            ></Projectcard>
+
+            <Projectcard
               title="videochitchat"
               data="project :video chat application"
               img="https://source.unsplash.com/300x300/?videocall"
@@ -44,7 +52,7 @@ function Projects() {
               title="Laundry Management System"
               data=" project : Laundry Management System api fetching for diseases info and other"
               img="https://source.unsplash.com/300x300/?laundry"
-              srclink="https://laundry-shop.vercel.app/"
+              srclink="https://github.com/sushskvnitn/laundry_shop/"
             ></Projectcard>
 
             <Projectcard
@@ -54,18 +62,6 @@ function Projects() {
               srclink="https://github.com/sushskvnitn/dsa-practice"
             ></Projectcard>
           
-            <Projectcard
-              title="mecoder"
-              data="project :simple html css js app"
-              img="https://source.unsplash.com/300x300/?laptop"
-              srclink="https://sushskvnitn.github.io/mecoder/"
-            ></Projectcard>
-            <Projectcard
-              title="keep notes"
-              data="project :keep notes app"
-              img="https://source.unsplash.com/300x300/?notes"
-              srclink="https://sushskvnitn.github.io/keepnote/"
-            ></Projectcard>
             <Projectcard
               title="snake game"
               data="project :play snake game made with javascript ."

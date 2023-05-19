@@ -16,6 +16,7 @@ import Skills from "./components/skills";
 // import Parallaxscroll from './components/parallaxscroll';
 function App() {
   const [loading, setLoading] = useState(false);
+  
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {

@@ -113,7 +113,22 @@ export default function CustomizedTimeline() {
 </Timeline>
 <h1 className="align-center text-centern text-black contact3 font-weight-bold">  Experience </h1>
 <div className="  flex-wrap justify-content-center d-flex    text-center">
-
+<div className="m-4 py-6"  style={{color:' black'}} data-aos-delay="500" data-aos="zoom-in-up">
+      <div className="card" >
+        <div className="card-body">
+          <h3 style={{color:'#111F4D'}}>  Freelancer  </h3>
+          <h5 className="card-title">  Full stack Developer</h5>
+          <p  className="card-text" style={{color:'#00181a'}} > Gigs on Freelancer,Linkedin and Upwork <br/>
+              <br/>
+              Dec 2022 - {date}
+              <br/>
+              Nagpur, Maharashtra, India
+              <br/>
+              <br/></p>
+        </div>
+      </div>
+    <br/>
+    </div>
 
     <br/>
     <div className="m-4 py-6" style={{color:' black'}}  data-aos-delay="500" data-aos="zoom-in-up">
@@ -147,22 +162,7 @@ export default function CustomizedTimeline() {
         </div>
       </div>
     </div>
-    <div className="m-4 py-6"  style={{color:' black'}} data-aos-delay="500" data-aos="zoom-in-up">
-      <div className="card" >
-        <div className="card-body">
-          <h3 style={{color:'#111F4D'}}>  Institute Development Society </h3>
-          <h5 className="card-title">  Web Developer</h5>
-          <p  className="card-text" style={{color:'#00181a'}} >    Institute Development Society, VNIT Nagpur
-              <br/>
-              Dec 2021 - {date}
-              <br/>
-              Nagpur, Maharashtra, India
-              <br/>
-              <br/></p>
-        </div>
-      </div>
-    <br/>
-    </div>
+  
      
 </div>
 

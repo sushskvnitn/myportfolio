@@ -31,6 +31,19 @@ const Skills = () => {
       "Bootstrap",
       "Linux",
       "MySQL",
+      "AWS",
+      "Redux",
+      "React Native",
+      "Material UI",
+      "python",
+      "flask",
+      "Java",
+      "PHP",
+      "Postman",
+      "Android Studio",
+      "Adobe Photoshop",
+      
+
     ];
     const bigScreen = window.matchMedia("(min-width: 421px)");
     const radius = bigScreen.matches ? 221 : 120;
