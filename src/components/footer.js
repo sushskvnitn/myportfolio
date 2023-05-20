@@ -1,8 +1,8 @@
-import React,{useState, useEffect} from "react";
+import React from "react";
 import CountertopsIcon from '@mui/icons-material/Countertops';
 import {SiLeetcode} from "react-icons/si";
 function Footer() {
-const [counter, setcounter] = useState(0);
+// const [counter, setcounter] = useState(0);
 //  function visitorcount() {
 //   fetch('https://api.countapi.xyz/update/sushantportfolio.vercel.app/sushport/?amount=1')
 // 	.then(res => res.json())
@@ -23,7 +23,7 @@ const [counter, setcounter] = useState(0);
           <div className="container pt-4">
             <div className="display-5 lead" > <h1 id="counter " className="contact3 font-weight-bold text-black"
             >
-           <CountertopsIcon/>  views : {counter}
+           {/* <CountertopsIcon/>  views : {counter} */}
             </h1></div>
             <section className="mb-4">
               <a

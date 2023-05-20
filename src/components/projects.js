@@ -68,6 +68,12 @@ I developed a hospital website as a freelancer, featuring detailed hospital info
               img="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
               srclink="https://sushskvnitn.github.io/snakegame.github.io/"
             ></Projectcard>
+            <Projectcard
+              title="Python Applications"
+              data="My github repo about python progeamming and machine learning."
+              img="https://source.unsplash.com/300x300/?machinelearning"
+              srclink="https://github.com/sushskvnitn/all_abt_python"
+            ></Projectcard>
           </div>
         </div>
       </div>
