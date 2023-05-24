@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import { FaFileAlt } from "react-icons/fa";
 // import { TiSocialInstagram } from "react-icons/ti";
-import LoadingBar from "react-top-loading-bar";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { IoAlbumsSharp } from "react-icons/io5";
 import {GiSkills} from "react-icons/gi";
@@ -10,15 +9,9 @@ import {GiSkills} from "react-icons/gi";
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
-  const [Progress, setProgress] = useState(0);
 
   return (
     <>
-      <LoadingBar
-        color="#FF0000"
-        progress={Progress}
-        onLoaderFinished={() => setProgress(0)}
-      />
       <nav
         className="navbar sticky-top navbar-expand-lg fill "
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#00181a",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
@@ -45,7 +38,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2 "
                 to="Home" smooth={true} duration={1500}
-                onClick={() => setProgress(100)}
+                
               >
                 <IoIosHome /> Home <span className="sr-only">(current)</span>
               </Link>
@@ -54,7 +47,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2"
                 to="about" smooth={true} duration={1000}
-                onClick={() => setProgress(100)}
+                
               >
                 <FaFileAlt /> About
               </Link>
@@ -64,7 +57,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2 "
                 to="skills" smooth={true} duration={1000}
-                onClick={() => setProgress(100)}
+                
               >
                 <GiSkills /> Skills
               </Link>
@@ -74,7 +67,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2"
                 to="projects" smooth={true} duration={1500}
-                onClick={() => setProgress(100)}
+                
               >
                 <IoAlbumsSharp /> projects
               </Link>
@@ -83,7 +76,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2"
                 to="social" smooth={true} duration={1500}
-                onClick={() => setProgress(100)}
+                
               >
                 <TiSocialInstagram /> social media
               </Link>
@@ -92,7 +85,7 @@ export default function Navbar() {
               <Link
                 className="nav-link navhov mx-2"
                 to="contact" smooth={true} duration={1500}
-                onClick={() => setProgress(100)}
+                
               >
                 <IoIosContacts /> contact
               </Link>

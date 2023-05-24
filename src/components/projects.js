@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import LoadingBar from "react-top-loading-bar";
+import React, { useEffect } from "react";
 import Projectcard from "./Projectcard";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Projects() {
-  const [Progress, setProgress] = useState(0);
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -23,15 +21,8 @@ function Projects() {
           Here are some of the projects <br /> I have done using HTML , CSS
           ,Javascript and React with lot
           <br /> of animations and features with their hosting on different
-          platforms{" "}
+          platforms
         </h4>
-
-        <LoadingBar
-          color="#ff0000"
-          progress={Progress}
-          onLoaderFinished={() => setProgress(0)}
-        />
-
         <div>
           <div className="container d-flex flex-wrap">
             <Projectcard

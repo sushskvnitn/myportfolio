@@ -6,7 +6,6 @@ import Contact from "./components/contact";
 import About from "./components/about";
 import Home from "./components/home";
 import React, {useState, useEffect} from "react";
-import LoadingBar from "react-top-loading-bar";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
 import RingLoader from "react-spinners/RingLoader";
@@ -23,7 +22,6 @@ function App() {
       setLoading(false);
     }, 4000);
   }, []);
-  const [progress, setProgress] = useState(0);
 
   return (<> < div className = "app" > {
     loading
@@ -47,9 +45,6 @@ function App() {
     </div>
   </>)
       : (<div className="display img-fluid">
-        <LoadingBar color="#DAA520" progress={progress} onLoaderFinished={() => setProgress(0)}/>
-        
-            
    
         <div>
         

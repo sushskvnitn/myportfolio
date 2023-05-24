@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import LoadingBar from "react-top-loading-bar";
+import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import {SiLeetcode} from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
@@ -8,7 +7,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 // import Wave from 'react-wavify'
 function Home() {
-  const [Progress, setProgress] = useState(0);
+  
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -16,11 +15,6 @@ function Home() {
   return (
     <>
       <section id="Home" style={{ paddingBottom: "3rem" }}>
-        <LoadingBar
-          color="#FFFF00"
-          progress={Progress}
-          onLoaderFinished={() => setProgress(0)}
-        />
         <div
           className="card d-flex justify-content-center"
           style={{
@@ -98,7 +92,7 @@ function Home() {
                       <li className="list-inline-item">
                         <a
                           href="https://www.linkedin.com/in/sushant-kogurwar"
-                          onClick={() => setProgress(100)}
+                          
                           className="social-link"
                         >
                           <FaLinkedin />
@@ -107,7 +101,7 @@ function Home() {
                       <li className="list-inline-item">
                         <a
                           href="https://www.instagram.com/sushant_since_2002/"
-                          onClick={() => setProgress(100)}
+                          
                           className="social-link"
                         >
                           <FaInstagram />
@@ -116,7 +110,7 @@ function Home() {
                       <li className="list-inline-item">
                         <a
                           href="https://github.com/sushskvnitn"
-                          onClick={() => setProgress(100)}
+                          
                           className="social-link"
                         >
                           <FaGithub />
@@ -125,7 +119,7 @@ function Home() {
                       <li className="list-inline-item">
                         <a
                           href="https://leetcode.com/Kogurwarsushant/"
-                          onClick={() => setProgress(100)}
+                          
                           className="social-link"
                         >
                           <SiLeetcode />
