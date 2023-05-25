@@ -342,3 +342,8 @@ nav.fill ul li a {
   position: relative;
 }
 
+@media (max-width: 400px) {
+  .hideonsmallwidth{
+    width: 50%;
+  }
+}

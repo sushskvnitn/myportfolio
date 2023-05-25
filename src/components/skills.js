@@ -39,12 +39,11 @@ const Skills = () => {
       "flask",
       "Java",
       "PHP",
-      "Postman",
       
 
     ];
     const bigScreen = window.matchMedia("(min-width: 421px)");
-    const radius = bigScreen.matches ? 221 : 120;
+    const radius = bigScreen.matches ? 150 : 120;
     const options = {
       radius: radius,
       maxSpeed: "fast",

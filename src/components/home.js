@@ -15,23 +15,22 @@ function Home() {
 
   return (
     <>
-    <div class="bcontainer">
-	
-	
-	<div class="bird-container bird-container--one">
-		<div class="bird bird--one"></div>
+    
+    <div className="hideonsmallwidth ">
+	<div className="bird-container bird-container--one ">
+		<div className="bird bird--one"></div>
 	</div>
 	
-	<div class="bird-container bird-container--two">
-		<div class="bird bird--two"></div>
+	<div className="bird-container bird-container--two">
+		<div className="bird bird--two"></div>
 	</div>
 	
-	<div class="bird-container bird-container--three">
-		<div class="bird bird--three"></div>
+	<div className="bird-container bird-container--three">
+		<div className="bird bird--three"></div>
 	</div>
 	
-	<div class="bird-container bird-container--four">
-		<div class="bird bird--four"></div>
+	<div className="bird-container bird-container--four">
+		<div className="bird bird--four"></div>
 	</div>
 	
 </div>
@@ -97,7 +96,7 @@ function Home() {
                 >
                   <div className="rounded shadow-sm py-5 px-4 ">
                     <img
-                      src="https://i.postimg.cc/4dXvghtX/IMG-20211106-214519-447.jpg"
+                      src="https://i.postimg.cc/fyjQ3k6t/IMG-1741.jpg"
                       data-aos="fade-zoom-in"
                       data-aos-offset="200"
                       data-aos-easing="ease-in-sine"
