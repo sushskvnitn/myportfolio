@@ -40,8 +40,6 @@ const Skills = () => {
       "Java",
       "PHP",
       "Postman",
-      "Android Studio",
-      "Adobe Photoshop",
       
 
     ];

@@ -5,6 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import './birdanime.scss';
 // import Wave from 'react-wavify'
 function Home() {
   
@@ -14,6 +15,27 @@ function Home() {
 
   return (
     <>
+    <div class="bcontainer">
+	
+	
+	<div class="bird-container bird-container--one">
+		<div class="bird bird--one"></div>
+	</div>
+	
+	<div class="bird-container bird-container--two">
+		<div class="bird bird--two"></div>
+	</div>
+	
+	<div class="bird-container bird-container--three">
+		<div class="bird bird--three"></div>
+	</div>
+	
+	<div class="bird-container bird-container--four">
+		<div class="bird bird--four"></div>
+	</div>
+	
+</div>
+
       <section id="Home" style={{ paddingBottom: "3rem" }}>
         <div
           className="card d-flex justify-content-center"
