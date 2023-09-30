@@ -39,6 +39,7 @@ const Skills = () => {
       "flask",
       "Java",
       "PHP",
+      "Tree js"
       
 
     ];

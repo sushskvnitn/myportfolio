@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useState} from "react";
 import Projectcard from "./Projectcard";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -7,6 +7,7 @@ function Projects() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+  const [projectype,setprojecttype]=useState(true)
   return (
     <>   
       <div id="projects">
@@ -14,30 +15,57 @@ function Projects() {
         <br />
         <br />
         <h2 className="font-weight-bold contact3" data-aos="zoom-in-up">
-         Projects
+        {projectype ?" Personal" : "Freelance" } Projects
         </h2>
 
         <h4 data-aos="fade-right " className=" text-center bold lead">
           Here are some of the projects <br /> I have done using HTML , CSS
           ,Javascript and React with lot
           <br /> of animations and features with their hosting on different
-          platforms
-        </h4>
-        <div>
-          <div className="container d-flex flex-wrap">
-            <Projectcard
-              title="Sarc hospital website"
-              data="project :
-I developed a hospital website as a freelancer, featuring detailed hospital information, services, and a secure login system with JWT authentication for doctors. Patients can book appointments, receive emails with PDF attachments containing unique token numbers, and use them when visiting the hospital. To send these emails, I utilized the SendinBlue npm package in Node.js for reliable and efficient delivery. "
-              img="https://source.unsplash.com/300x300/?hospital"
-              srclink="http://sanjeevanarc.com/"
-            ></Projectcard>
+          platforms 
+          <div className="">
+          {projectype ? (
+  <button
+    className="btn text-light btn-sm"
+    style={{
+      background:
+        "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgba(214,202,74,1) 100%)",
+    }}
+    onClick={() => setprojecttype(false)}
+  >
+    Personal Projects
+  </button>
+) : (
+  <button
+    className="btn text-light btn-sm"
+    style={{
+      background:
+        "linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgba(214,202,74,1) 100%)",
+    }}
+    onClick={() => setprojecttype(true)}
+  >
+    Freelance Projects
+  </button>
+)}
 
-            <Projectcard
-              title="videochitchat"
-              data="project :video chat application"
-              img="https://source.unsplash.com/300x300/?videocall"
-              srclink="https://videochitchat.netlify.app"
+          </div>
+        </h4> 
+        <div> 
+          {projectype ? 
+          <div className="container d-flex flex-wrap">
+    <Projectcard
+              title=" Multi Threaded  server "
+              data="project :Developed a multi-threaded web server capable of handling HTTP requests in my operating systems course, leveraging mutex locks and condition variables to ensure thread synchronization and prevent race conditions.
+Implemented the scheduling algorithms like first come first server(FCFS) and Shortest File First (SFF) for scheduling of the requests using Linked List data structure
+"
+              img="https://source.unsplash.com/300x300/?threading"
+              srclink="https://bit.ly/3O4HRPB"
+            ></Projectcard>
+             <Projectcard
+              title="Python Applications"
+              data="My github repo about python progeamming and machine learning."
+              img="https://source.unsplash.com/300x300/?machinelearning"
+              srclink="https://github.com/sushskvnitn/all_abt_python"
             ></Projectcard>
               <Projectcard
               title="Laundry Management System"
@@ -45,27 +73,49 @@ I developed a hospital website as a freelancer, featuring detailed hospital info
               img="https://source.unsplash.com/300x300/?laundry"
               srclink="https://github.com/sushskvnitn/laundry_shop/"
             ></Projectcard>
-
+            <Projectcard
+              title="videochitchat"
+              data="project :video chat application"
+              img="https://source.unsplash.com/300x300/?videocall"
+              srclink="https://videochitchat.netlify.app"
+            ></Projectcard> 
             <Projectcard
               title="DSA"
               data="repo : My DSA practice "
               img="https://source.unsplash.com/300x300/?coding"
               srclink="https://github.com/sushskvnitn/dsa-practice"
             ></Projectcard>
-          
-            <Projectcard
-              title="snake game"
-              data="project :play snake game made with javascript ."
-              img="https://images.unsplash.com/photo-1604915384518-262d981d5677?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8c25ha2V8fHx8fHwxNjM5Mjk0OTA1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
-              srclink="https://sushskvnitn.github.io/snakegame.github.io/"
-            ></Projectcard>
-            <Projectcard
-              title="Python Applications"
-              data="My github repo about python progeamming and machine learning."
-              img="https://source.unsplash.com/300x300/?machinelearning"
-              srclink="https://github.com/sushskvnitn/all_abt_python"
-            ></Projectcard>
+        
+
           </div>
+          :
+          <div className="container d-flex flex-wrap">
+          <Projectcard
+              title="Sarc hospital website"
+              data="project :Developed a hospital website, featuring detailed hospital information, services, and a secure login system with JWT authentication for doctors. Patients can book appointments, receive emails with PDF attachments containing unique token numbers, and use them when visiting the hospital. To send these emails, I utilized the SendinBlue npm package in Node.js for reliable and efficient delivery. "
+              img="https://source.unsplash.com/300x300/?hospital"
+              srclink="https://github.com/sushskvnitn/hospital-project"
+            ></Projectcard>
+            <Projectcard
+              title="salvexploration website"
+              data="project : Fixed bugs for the client that i got on freelancer.com "
+              img="https://source.unsplash.com/300x300/?mars"
+              srclink="https://salvexploration.com/"
+            ></Projectcard> 
+            <Projectcard
+              title="OWN website"
+              data="project :Developed the React based project for the OWN service provider company. The website is fully responsive and has a clean and modern design. The website is hosted on Netlify and the domain is provided by GoDaddy. The website is fully functional and has a contact form that sends emails to the company's email address. The website is also integrated with Google Analytics to track the website's performance. "
+              img="https://source.unsplash.com/300x300/?building"
+              srclink="https://ownprojectfrontend.netlify.app/"
+            ></Projectcard> 
+             <Projectcard
+              title="PopularPG website"
+              data="project : Worked On React + django based projects with my colleagues. The website is fully responsive and has a clean and modern design "
+              img="https://source.unsplash.com/300x300/?pg"
+              srclink="https://github.com/sushskvnitn/popularpg2.0"
+            ></Projectcard>
+            </div>
+          }
         </div>
       </div>
     </>

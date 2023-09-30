@@ -7,6 +7,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import './birdanime.scss';
 // import Wave from 'react-wavify'
+import ani from "./an1.mp4"
 function Home() {
   
   useEffect(() => {
@@ -14,7 +15,7 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <div >
     
     <div className="hideonsmallwidth ">
 	<div className="bird-container bird-container--one ">
@@ -50,11 +51,11 @@ function Home() {
           <div className="container py-5">
             <div data-aos="flip-right"className="d-none d-sm-block ">
             {/* #37dfa3 */}
-             <h1 className="bounce-in-top" style={{color:"#d6ca4a",paddingLeft:"5rem",marginTop:"2rem",fontWeight:"bold",}}>
+             <h1 className="bounce-in-top" hidden style={{color:"#d6ca4a",paddingLeft:"5rem",marginTop:"2rem",fontWeight:"bold",}}>
                Sushant Kogurwar
           
               </h1>
-              <div className=" codesx"  >
+              <div className=" codesx mt-5"  >
              
               <iframe src="https://embed.lottiefiles.com/animation/82423"   frameBorder="0" title="animatedicons" scrolling="no"  style={{pointerEvents:"none" ,height:"13rem"}} > </iframe>
             <a className="btn rounded-circle btn-danger p-1 shake" target="_blank" href="https://linktr.ee/Sushantsk"  rel="noreferrer" >  </a>
@@ -86,7 +87,7 @@ function Home() {
              
 
             <div className="container d-sm-none">
-              <div className="row text-center d-flex justify-content-center shadow p-3 mb-5  rounded hidden" >
+              <div className="row text-center d-flex justify-content-center  p-3 mb-5  rounded hidden" >
                 <div
                   className="col-xl-3 col-sm-6 mb-5 bgmi"
                   style={{
@@ -94,7 +95,7 @@ function Home() {
                     height: "22rem",
                   }}
                 >
-                  <div className="rounded shadow-sm py-5 px-4 ">
+                  <div className="rounded -sm py-5 px-4 ">
                     <img
                       src="https://i.postimg.cc/fyjQ3k6t/IMG-1741.jpg"
                       data-aos="fade-zoom-in"
@@ -103,7 +104,7 @@ function Home() {
                       data-aos-duration="600"
                       alt=""
                       width="130"
-                      className="img-fluid rounded-circle img-thumbnail shadow-sm"
+                      className="img-fluid rounded-circle img-thumbnail -sm"
                     />
                     <br />
                     <h6 className="small text-uppercase ">
@@ -164,11 +165,11 @@ function Home() {
                   <Typewriter
                     loop
                     cursor
-                    cursorStyle="_"
-                    typeSpeed={80}
+                    cursorStyle="|"
+                    typeSpeed={60}
                     deleteSpeed={55}
                     delaySpeed={1000}
-                    words={["Hello , I'm a student with a focus on technical development.I'm hardworking, diligent, and  dedicated—all qualities I put forward in everything I do"]}
+                    words={["Hello , I'm a student and a freelancer as a full stack developer with a focus on technical development.I'm hardworking, diligent, and  dedicated—all qualities I put forward in everything I do"]}
                   />
                 </span>
                 </div>
@@ -177,7 +178,7 @@ function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
