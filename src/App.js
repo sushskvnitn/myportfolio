@@ -8,10 +8,9 @@ import Home from "./components/home";
 import React, {useState, useEffect} from "react";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
-import RingLoader from "react-spinners/RingLoader";
-import {Typewriter} from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import Skills from "./components/skills";
+import Terminal from "./components/Terminal";
 // import Parallaxscroll from './components/parallaxscroll';
 function App() {
   const [loading, setLoading] = useState(false);
@@ -20,29 +19,15 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 5000);
   }, []);
 
   return (<> < div className = "app" > {
     loading
-      ? (<> < div className = "loader" > <br/>
-      <br/>
+      ? (<> 
 
-      <div>
-        <h1 >
-
-          Hello_
-          <span style={{
-              color: "#00181a",
-              fontWeight: "bold"
-            }}>
-            <Typewriter loop="loop"  cursor="cursor" cursorStyle="|" typeSpeed={80} deleteSpeed={100} delaySpeed={100} words={["welcome", "नमस्ते", "స్వాగతం"]}/>
-          </span>
-        </h1>
-      </div>
-
-      <RingLoader color={"#DAA520"} loading={loading} size={100}/>
-    </div>
+      <Terminal/>
+    
   </>)
       : (<div className="display img-fluid">
    

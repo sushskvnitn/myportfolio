@@ -1,8 +1,9 @@
 body{
     background-color: #000000;
-    color:white;
+    color:#0f0;
     font-size: 18px;
     cursor: default;
+    
   }
   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto+Mono:wght@300&display=swap');
@@ -44,18 +45,18 @@ body{
 }
 
 #about{
-  background: #F2F4F7;
-  color:#020100;
+  background: #000;
+  color:#0f0;
   cursor: default;
 }
 #projects{
-  background:#F2F4F7;
-  color:#020100;
+  background:#000;
+  color:#0f0;
   cursor: default;
 }
 #footer{
-  background: #F2F4F7;
-  color:#020100
+  background: #000;
+  color:#0f0
 }
 
 
@@ -253,8 +254,8 @@ display:block;
   transform: translateX(10em);
 }
 .nav-item:hover(){
-  color: #f1de0f;
-  border: 1px solid #f1de0f;
+  color: #0f0;
+  border: 1px solid #000;
 }
 
 @media only screen 
@@ -360,7 +361,7 @@ nav.fill ul li a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2em;
-  color: #222222;
+  color: #0f0;
   font-size: 1em;
   font-family: 'Lato', sans-serif;
 }
@@ -409,7 +410,7 @@ nav.fill ul li a {
   display: block;
   width: 1em;
   height: 1em;
-  border: solid 1px #222222;
+  border: solid 1px #0f0;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -425,7 +426,7 @@ nav.fill ul li a {
 }
 
 .CV-timeline-heading-title {
-  color: #111f4d;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 
@@ -441,7 +442,7 @@ nav.fill ul li a {
 }
 .CV-job-timeline-item1{
   font-size: 0.8em;
-  color: #6f6f6f;
+  color: rgb(255, 255, 255);
 }
 
 .CV-timeline-details {
