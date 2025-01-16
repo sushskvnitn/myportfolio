@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <nav
         className="navbar sticky-top navbar-expand-lg fill "
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#00181a",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#000",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
         <img src="https://i.postimg.cc/sDpnYSvg/12322.png" alt="" className="sticky-top mx-3 img-fluid"  height="50" width="50"/>

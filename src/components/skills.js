@@ -17,10 +17,6 @@ const Skills = () => {
       "ReactJS",
       "C++",
       "JavaScript",
-      "latex",
-      "C",
-      "HTML5",
-      "CSS3",
       "NodeJS",
       "MongoDB",
       "ExpressJS",
@@ -32,14 +28,15 @@ const Skills = () => {
       "Linux",
       "MySQL",
       "AWS",
-      "Redux",
       "React Native",
-      "Material UI",
       "python",
       "flask",
       "Java",
       "PHP",
-      "Tree js"
+      "Pen testing",
+      "Red teaming",
+      "Risk Assessment",
+      "App Security"
       
 
     ];

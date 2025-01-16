@@ -23,23 +23,7 @@ function Home() {
 
   return (
     <div>
-      <div className="hideonsmallwidth ">
-        <div className="bird-container bird-container--one ">
-          <div className="bird bird--one"></div>
-        </div>
-
-        <div className="bird-container bird-container--two">
-          <div className="bird bird--two"></div>
-        </div>
-
-        <div className="bird-container bird-container--three">
-          <div className="bird bird--three"></div>
-        </div>
-
-        <div className="bird-container bird-container--four">
-          <div className="bird bird--four"></div>
-        </div>
-      </div>
+    
 
       <section id="Home" style={{ paddingBottom: "3rem" }}>
         <div
@@ -56,18 +40,7 @@ function Home() {
           <div className="container py-5">
             <div data-aos="flip-right" className="d-none d-sm-block ">
               {/* #37dfa3 */}
-              <h1
-                className="bounce-in-top"
-                hidden
-                style={{
-                  color: "#d6ca4a",
-                  paddingLeft: "5rem",
-                  marginTop: "2rem",
-                  fontWeight: "bold",
-                }}
-              >
-                Sushant Kogurwar
-              </h1>
+        
               <div className=" codesx mt-5">
                 <iframe
                   src="https://embed.lottiefiles.com/animation/82423"
@@ -107,7 +80,7 @@ function Home() {
                     typeSpeed={70}
                     deleteSpeed={55}
                     delaySpeed={1000}
-                    words={["developer", "student", "sushant"]}
+                    words={["Developer", "CyberSecurity Professional", "Ethical Hacker"]}
                   />
                 </span>
               </h1>
@@ -196,8 +169,7 @@ function Home() {
                     deleteSpeed={55}
                     delaySpeed={1000}
                     words={[
-                      "Hello , I'm a student and a freelancer as a full stack developer with a focus on technical development.I'm hardworking, diligent, and  dedicated—all qualities I put forward in everything I do",
-                    ]}
+                      "I am a passionate cybersecurity enthusiast and software developer with a strong background in computer science. With experience in full-stack web development and a focus on security, I am actively exploring ethical hacking, penetration testing, and securing applications. Currently working as a Deputy Manager II in the Information Security Group at a top Indian bank, I am involved in attack surface management and red teaming activities. Always eager to learn, I am preparing for certifications like OSCP and developing projects to illustrate critical security concepts like the OWASP Top 10 and SANS 25 vulnerabilities."   ]}
                   />
                 </span>
               </div>

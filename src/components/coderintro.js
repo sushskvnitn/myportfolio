@@ -54,7 +54,7 @@ const CoderIntro = () => {
         px: 2
       }}>
       <Typography variant="h6" component="span">
-        Code
+        Code n hack
       </Typography>
       <Typography>Because it&apos;s awesome!</Typography>
     </TimelineContent>
