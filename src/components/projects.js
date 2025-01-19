@@ -29,7 +29,7 @@ function Projects() {
     className="btn text-light btn-sm"
     style={{
       background:
-        "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgba(214,202,74,1) 100%)",
+        "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgb(235, 4, 4) 100%)",
     }}
     onClick={() => setprojecttype(false)}
   >
@@ -40,7 +40,7 @@ function Projects() {
     className="btn text-light btn-sm"
     style={{
       background:
-        "linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgba(214,202,74,1) 100%)",
+        "linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,24,26,1) 35%, rgb(203, 0, 0) 100%)",
     }}
     onClick={() => setprojecttype(true)}
   >

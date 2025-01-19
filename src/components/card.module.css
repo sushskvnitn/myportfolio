@@ -1,9 +1,9 @@
 #card:hover{
        border-radius: 0.5em;
-     box-shadow: 0 0 .2rem #fff,
-            0 0 .2rem #fff,
-            0 0 1rem #d5ca4c,
-            0 0 0.8rem #d5ca4c,
-            0 0 1.8rem #d5ca4c,
-            inset 0 0 1rem #d5ca4c; 
+     box-shadow: 0 0 .2rem #945959,
+            0 0 .2rem #c55454,
+            0 0 1rem #ff0000,
+            0 0 0.8rem #770000,
+            0 0 1.8rem #000,
+            inset 0 0 1rem #891900; 
 }

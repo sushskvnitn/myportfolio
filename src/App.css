@@ -1,6 +1,6 @@
 body{
     background-color: #000000;
-    color:#0f0;
+    color:#ff0000;
     font-size: 18px;
     cursor: default;
     
@@ -14,7 +14,7 @@ body{
 
 .loader{
   text-align: center;
-  background: linear-gradient(to right, #d5ca4c, #00181a);
+  background: linear-gradient(to right, #000000, #00181a);
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -46,26 +46,29 @@ body{
 
 #about{
   background: #000;
-  color:#0f0;
+  color:#ff0000;
   cursor: default;
 }
 #projects{
   background:#000;
-  color:#0f0;
+  color:white;
   cursor: default;
 }
 #footer{
   background: #000;
-  color:#0f0
+  color:#ff0000
 }
 
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 .contact3 {
   font-family: "Montserrat", sans-serif;
-  color: #d6ca4a;
+  color: #ff0000;
   font-weight: 300;
+ 
 }
+
+
 
 .contact3 h1,
 .contact3 h2,
@@ -217,7 +220,7 @@ body{
 .side-menu ul li:nth-child(6):hover { background-color: #0347f4;-webkit-transform: translateX(10em);transform: translateX(10em);}
 
 .side-menu ul li {
-  background-color: #d6ca4a; /*you can make different colors depending on the nth-child like above*/
+  background-color: #ff0000; /*you can make different colors depending on the nth-child like above*/
  color: rgb(17, 2, 2);
 }
 .side-menu ul li a {
@@ -238,23 +241,13 @@ display:block;
   right: 0.16666666666667em;
   color: #F8F6FF;
 }
-.bgmi{
-  color: #272343;
-   background: #F2F4F7;
-  border-radius: 30% 70% 49% 51% / 30% 30% 70% 70% ;
-}
-.bgmi:hover{
-  color: #ffffff;
-  background-color: #d6ca4a;
-  border-radius: 30% 70% 49% 51% / 30% 30% 70% 70% ;
-}
 
 .list-inline-item:active{
   color: #000;
   transform: translateX(10em);
 }
 .nav-item:hover(){
-  color: #0f0;
+  color: #ff0000;
   border: 1px solid #000;
 }
 
@@ -350,6 +343,12 @@ nav.fill ul li a {
   }
 }
 
+@media (min-width:450px){
+  .contact3{
+    margin-left: 5rem;
+  }
+}
+
 *,
 *:before,
 *:after {
@@ -361,7 +360,7 @@ nav.fill ul li a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2em;
-  color: #0f0;
+  color: #ff0000;
   font-size: 1em;
   font-family: 'Lato', sans-serif;
 }
@@ -410,7 +409,7 @@ nav.fill ul li a {
   display: block;
   width: 1em;
   height: 1em;
-  border: solid 1px #0f0;
+  border: solid 1px #ff0000;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -455,4 +454,61 @@ nav.fill ul li a {
 
 .CV-timeline-details-item {
   margin-bottom: 0.5em;
+}
+
+.glitch {
+  position: relative;
+  display: inline-block;
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 24px;
+  animation: glitch-animation 1s infinite;
+  text-shadow: 2px 0 #ff0000, -2px 0 blue;
+}
+
+@keyframes glitch-animation {
+  0% {
+    transform: skew(-0.3deg);
+    text-shadow: 1px 0 #ff0000, -1px 0 blue;
+  }
+  10% {
+    transform: skew(0.3deg);
+    text-shadow: -1px 0 #ff0000, 1px 0 blue;
+  }
+  20% {
+    transform: skew(-0.2deg);
+    text-shadow: 2px 0 #ff0000, -2px 0 blue;
+  }
+  30% {
+    transform: skew(0.3deg);
+    text-shadow: -1px 0 #ff0000, 1px 0 blue;
+  }
+  40% {
+    transform: skew(-0.5deg);
+    text-shadow: 2px 0 #ff0000, -2px 0 blue;
+  }
+  50% {
+    transform: skew(0.2deg);
+    text-shadow: -1px 0 #ff0000, 1px 0 blue;
+  }
+  60% {
+    transform: skew(0.3deg);
+    text-shadow: 1px 0 #ff0000, -1px 0 blue;
+  }
+  70% {
+    transform: skew(-0.2deg);
+    text-shadow: -2px 0 #ff0000, 2px 0 blue;
+  }
+  80% {
+    transform: skew(0.3deg);
+    text-shadow: 1px 0 #ff0000, -1px 0 blue;
+  }
+  90% {
+    transform: skew(-0.3deg);
+    text-shadow: -1px 0 #ff0000, 1px 0 blue;
+  }
+  100% {
+    transform: skew(0.1deg);
+    text-shadow: 2px 0 #ff0000, -2px 0 blue;
+  }
 }

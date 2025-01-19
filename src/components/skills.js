@@ -61,7 +61,7 @@ const Skills = () => {
                skills
               </h1></b>
         </div>
-        <div className="tag-cloud-container d-flex justify-content-center">
+        <div className="tag-cloud-container d-flex justify-content-center" style={{ color: "white" }}>
           <div className="tagcloud"></div>
         </div>
       </div>

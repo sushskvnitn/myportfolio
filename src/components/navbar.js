@@ -14,10 +14,10 @@ export default function Navbar() {
     <>
       <nav
         className="navbar sticky-top navbar-expand-lg fill "
-        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#000",zIndex:"1",color:"#d5ca4c" }} data-aos-delay="500"
+        style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#000",zIndex:"1",color:"#ff0000" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
-        <img src="https://i.postimg.cc/sDpnYSvg/12322.png" alt="" className="sticky-top mx-3 img-fluid"  height="50" width="50"/>
+        <img src="https://i.postimg.cc/448HPs77/logo.png" alt="" className="sticky-top mx-3 img-fluid"  height="50" width="50"/>
         </Link>
         
         <button
@@ -26,7 +26,7 @@ export default function Navbar() {
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
-          aria-expanded="false" style={{ color:"#d6ca4a" }}
+          aria-expanded="false" style={{ color:"#ff0000" }}
           aria-label="Toggle navigation"
         >
         <MenuIcon/>
