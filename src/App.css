@@ -464,6 +464,14 @@ nav.fill ul li a {
   font-size: 24px;
   animation: glitch-animation 1s infinite;
   text-shadow: 2px 0 #ff0000, -2px 0 blue;
+}.glitch1 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  animation: glitch-animation 1s infinite;
+  text-shadow: 2px 0 #ff0000, -2px 0 blue;
 }
 
 @keyframes glitch-animation {

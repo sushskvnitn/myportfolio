@@ -36,38 +36,38 @@ function Home() {
         >
           <div className="container py-5">
             <div data-aos="flip-right" className="d-none d-sm-block ">
-            <div
-      style={{
-        color: "red",
-        fontSize: "24px",
-        fontWeight: "600",
-        textAlign: "center",
-        padding: "20px",
-        position: "relative",
-        display: "inline-block",
-        overflow: "hidden",
-      }}
-    >
-      <div
-        className="glitch"
-        style={{
-          position: "relative",
-          color: "red",
-          fontWeight: "600",
-          fontSize: "24px",
-        }}
-      >
-        <Typewriter
-          cursor
-          cursorStyle="|"
-          typeSpeed={70}
-          delaySpeed={4000}
-          words={[
-            "'Hey, I’m Sushant, crafting code with care, innovating as a dev, safeguarding everywhere!'",
-          ]}
-        />
-      </div>
-    </div>
+              <div
+                style={{
+                  color: "red",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  textAlign: "center",
+                  padding: "20px",
+                  position: "relative",
+                  display: "inline-block",
+                  overflow: "hidden",
+                }}
+              >
+                <div
+                  className="glitch"
+                  style={{
+                    position: "relative",
+                    color: "red",
+                    fontWeight: "600",
+                    fontSize: "24px",
+                  }}
+                >
+                  <Typewriter
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                    delaySpeed={4000}
+                    words={[
+                      "'Hey, I’m Sushant, crafting code with care, innovating as a dev, safeguarding everywhere!'",
+                    ]}
+                  />
+                </div>
+              </div>
               <div className=" codesx mt-5">
                 <iframe
                   src="https://lottie.host/embed/d9b38946-8171-4651-8c32-8ea2ecdabc64/QNR7Ncl4Q4.lottie"
@@ -127,7 +127,7 @@ function Home() {
                     height: "22rem",
                   }}
                 >
-                  <div className="rounded-sm py-5 px-4">
+                  <div className="rounded-sm py-5 px-4" >
                     <img
                       src="https://i.postimg.cc/fyjQ3k6t/IMG-1741.jpg"
                       data-aos="fade-zoom-in"
@@ -136,10 +136,12 @@ function Home() {
                       data-aos-duration="600"
                       alt="Sushant Kogurwar"
                       width="130"
-                      className="img-fluid rounded-circle img-thumbnail"
+                      className="img-fluid rounded-circle img-thumbnail" style={{
+                    backgroundColor:"#ff0000"
+                  }}
                     />
                     <br />
-                    <h6 className="small text-uppercase my-4">
+                    <h6 className="small text-uppercase my-4 glitch1">
                       Sushant Kogurwar
                     </h6>
                     <ul className=" mb-0 list-inline mt-4">
