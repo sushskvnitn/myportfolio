@@ -17,7 +17,6 @@ export default function Navbar() {
         style={{ fontFamily: "Lato, sans-serif", backgroundColor: "#000",zIndex:"1",color:"#ff0000" }} data-aos-delay="500"
       >
         <Link className="navbar-brand" to="/">
-  // <a href="https://imgbb.com/"><img src="https://i.ibb.co/Ld5KckFp/logo.png" alt="logo" border="0"></a>
         <img src="https://i.ibb.co/Ld5KckFp/logo.png" alt="" className="sticky-top mx-3 img-fluid"  height="50" width="50"/>
         </Link>
         
